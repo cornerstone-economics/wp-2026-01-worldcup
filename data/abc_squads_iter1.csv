@@ -1,0 +1,104 @@
+team_code,player_name,position,club,club_country,league_tier,confidence,notes
+ARU-W,Hadassah Kock,GK,unknown,X,X,U,First-choice GK has started since at least 2023
+ARU-W,Dylana Veenstra,GK,unknown,X,X,U,Dutch surname suggests NL-based
+ARU-W,Richdienne Croes,GK,unknown,X,X,U,
+ARU-W,Dyviënne Henriquez,DEF,unknown,X,X,U,Started vs Panama April 2026
+ARU-W,Genesis Hazel,DEF,unknown,X,X,U,Started vs Panama
+ARU-W,Joya Tromp,DEF,unknown,X,X,U,Started vs Panama; Dutch surname
+ARU-W,Sofia Mora,DEF,unknown,X,X,U,Sub vs Panama
+ARU-W,Michaella Netto,DEF,unknown,X,X,U,Started vs Panama
+ARU-W,Jayla Croes,DEF,unknown,X,X,U,
+ARU-W,Joyce Chen,DEF,unknown,X,X,U,
+ARU-W,Tarianna Doornkamp,MID,unknown,X,X,U,Scored 2 goals vs Curaçao April 13 2026; role suggests professional
+ARU-W,Jennifer Henao Garces,MID,unknown,X,X,U,Scored vs Curaçao
+ARU-W,Zaline Angela,MID,unknown,X,X,U,
+ARU-W,Delilah Croes,MID,unknown,X,X,U,
+ARU-W,Niamh Tromp,MID,unknown,X,X,U,
+ARU-W,Aisse Gumbs,MID,AA Gent,BEL,1,H,Belgian Super League; previously Club Brugge YLA; played Excelsior per FBref
+ARU-W,Soraya Verhoeve,MID,FC Utrecht,NLD,1,H,Ex-Ajax 111 games 3 Eredivisie titles 5 KNVB Cups; captain at Telstar 2024-25; mother Aruban; born Delft/Amsterdam 1997
+ARU-W,Adannayah Breinburg,MID,unknown,X,X,U,Assist and goal vs Curaçao; Dutch surname
+ARU-W,Kim Schoppema,MID,unknown,X,X,U,Dutch surname
+ARU-W,Bonny Lammers Solognier,FWD,Excelsior Rotterdam,NLD,1,H,Azerion Vrouwen Eredivisie; born Netherlands Dec 19 2003
+ARU-W,Vanessa Susanna,FWD,unknown,X,X,U,Started vs Panama
+ARU-W,Zyana Rogers,FWD,unknown,X,X,U,Sub vs Panama
+ARU-W,Jill Dreischor,FWD,unknown,X,X,U,Dutch surname
+CUW-W,Ruwenna Cristina,X,UNDEBA,CUW,L,H,Curaçao local league
+CUW-W,Ignarda Pieternella,X,Victory Boys,CUW,L,H,Curaçao local
+CUW-W,Riesmarly Tokaay,X,Victory Boys,CUW,L,H,Curaçao local
+CUW-W,Gervionna Martina,X,Victory Boys,CUW,L,H,Curaçao local
+CUW-W,Kingnaichely Provence,X,Jong Holland,CUW,L,H,Jong Holland is a Curaçao club
+CUW-W,Thiheyna Susana,X,Excellence,CUW,L,H,Curaçao local
+CUW-W,Charnainelys Andrea,X,Excellence,CUW,L,H,Curaçao local
+CUW-W,Kadisha Martina,X,Cumberland University,USA,3,H,NAIA college (Tennessee); scored vs Anguilla 2023
+CUW-W,Rozan Snoek,X,HBC,NLD,3,M,Dutch amateur
+CUW-W,Lindsey Hart,X,Excelsior Maassluis,NLD,3,H,Dutch lower division
+CUW-W,Naychelene Nisia,X,Sparta Rotterdam,NLD,1,H,Azerion Vrouwen Eredivisie (top flight)
+CUW-W,Kyara Bernadina,X,FC Skillz,CUW,L,H,Curaçao local
+CUW-W,Diangely's Strijdhaftig,X,FC Skillz,CUW,L,H,Curaçao local
+CUW-W,Raëngelly Keller,X,Be Quick '28,NLD,3,H,Dutch amateur Hoofdklasse
+CUW-W,Taïsha Hansen,X,Be Quick '28,NLD,3,H,Dutch amateur; scored penalty vs Anguilla 2023
+CUW-W,Ludmarie Flaneur,X,BVV Barendrecht,NLD,3,H,Dutch amateur
+CUW-W,Shermilyene Leito,X,MSV Duisburg,DEU,2,M,German Frauen 2. Bundesliga (verify current tier)
+CUW-W,Jeleaugh Rosa,X,Acharnaikos,GRC,1,H,Greek A1 women's division
+CUW-W,Chelsea Kenton,X,WHC Hedw,NLD,3,H,Dutch amateur
+CUW-W,Shi-Jona Martina,X,Excelsior Rotterdam,NLD,1,H,Azerion Vrouwen Eredivisie; assisted Curaçao goal vs Aruba
+CUW-W,Akisha Lohman,X,Be Quick '28,NLD,3,H,Dutch amateur
+CUW-W,Destiny Koko,X,De Graafschap,NLD,3,H,Dutch lower division women
+ARU-M,Matthew Lentink,GK,Roosendaal,NLD,3,H,Dutch amateur
+ARU-M,Jahmani Eisden,GK,Aruba (local club),ABW,L,H,Aruba domestic league
+ARU-M,Josthan Maduro,GK,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Shafeeq Toussaint,GK,FC Den Bosch,NLD,2,H,Eerste Divisie
+ARU-M,Nickenson Paul,DEF,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Diederick Luydens,DEF,Jong Sparta Rotterdam,NLD,R,H,Eredivisie reserve team; plays in Tweede Divisie
+ARU-M,Bradley Martis,DEF,IJsselmeervogels,NLD,3,H,Dutch Tweede Divisie
+ARU-M,Kymani Nedd,DEF,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Rainey Breinburg,DEF,Feyenoord U19,NLD,Y,H,Dutch youth
+ARU-M,Darryl Bäly,DEF,OFC Oostzaan,NLD,3,H,Dutch amateur
+ARU-M,Gladwin Curiel,DEF,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Jeremy Trimon,DEF,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Roviën Ostiana,MID,Jong FC Volendam,NLD,R,H,Eredivisie reserve team; plays Tweede Divisie
+ARU-M,Arenchelo Leito,MID,RKAV Volendam,NLD,3,H,Dutch amateur
+ARU-M,Walter Bennett,MID,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Jaybriën Romano,MID,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Mishawn Molina,MID,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Jayden Ngadiman,MID,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Quinlan Poulina,MID,Katwijk,NLD,3,H,Dutch Tweede Divisie
+ARU-M,Gianni Vandepitte,MID,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Dimaggio Senchi,MID,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Carlito Fermina,FWD,Kozakken Boys,NLD,3,H,Dutch Tweede Divisie
+ARU-M,Gello Robertha,FWD,IJsselmeervogels,NLD,3,H,Dutch amateur
+ARU-M,Jayden Kruydenhof,FWD,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Javier Jiménez,FWD,Aruba (local club),ABW,L,H,Aruba domestic
+ARU-M,Conner van Kilsdonk,FWD,TOP Oss,NLD,2,H,Eerste Divisie
+CUW-M,Eloy Room,GK,Miami FC,USA,2,H,USL Championship; former Vitesse/PSV; joint most-capped
+CUW-M,Tyrick Bodak,GK,Telstar,NLD,2,H,Eerste Divisie
+CUW-M,Trevor Doornbusch,GK,VVV-Venlo,NLD,2,H,Eerste Divisie
+CUW-M,Shurandy Sambo,DEF,Sparta Rotterdam,NLD,1,H,Eredivisie
+CUW-M,Juriën Gaari,DEF,Abha,SAU,1,H,Saudi Pro League
+CUW-M,Roshon van Eijma,DEF,RKC Waalwijk,NLD,1,H,Eredivisie
+CUW-M,Sherel Floranus,DEF,PEC Zwolle,NLD,1,H,Eredivisie
+CUW-M,Deveron Fonville,DEF,NEC Nijmegen,NLD,1,H,Eredivisie
+CUW-M,Armando Obispo,DEF,PSV Eindhoven,NLD,1,H,Eredivisie (top-four club)
+CUW-M,Joshua Brenet,DEF,Kayserispor,TUR,1,H,Turkish Süper Lig
+CUW-M,Riechedly Bazoer,DEF,Konyaspor,TUR,1,H,Turkish Süper Lig
+CUW-M,Godfried Roemeratoe,MID,RKC Waalwijk,NLD,1,H,Eredivisie
+CUW-M,Juninho Bacuna,MID,FC Volendam,NLD,2,H,Eerste Divisie; Groningen-born; ex-Huddersfield/Rangers
+CUW-M,Livano Comenencia,MID,FC Zürich,CHE,1,H,Swiss Super League; position contested (FotMob MID Sofascore DEF)
+CUW-M,Leandro Bacuna,MID,Iğdır FK,TUR,2,H,Turkish First League; captain; joint most-capped
+CUW-M,Tahith Chong,MID,Sheffield United,GBR,2,H,EFL Championship
+CUW-M,Tyrese Noslin,MID,Telstar,NLD,2,H,Eerste Divisie
+CUW-M,Jordi Paulina,MID,Fortuna Düsseldorf,DEU,2,H,Bundesliga 2 (Dortmund U23 per one source; verify)
+CUW-M,Kevin Felida,MID,FC Den Bosch,NLD,2,H,Eerste Divisie
+CUW-M,Gervane Kastaneer,FWD,Terengganu,MYS,1,H,Malaysian Super League; led qualifying with 5 goals
+CUW-M,Jürgen Locadia,FWD,Miami FC,USA,2,H,USL Championship; ex-PSV/Brighton
+CUW-M,Jeremy Antonisse,FWD,Kifisia,GRC,1,H,Greek Super League
+CUW-M,Sontje Hansen,FWD,Middlesbrough,GBR,2,H,EFL Championship
+CUW-M,Rangelo Janga,FWD,unknown/free agent,X,X,L,In broader squad pool; club TBC
+CUW-M,Joshua Zimmerman,FWD,unknown,X,X,L,In broader squad pool
+CUW-M,ArJany Martha,DEF,unknown,X,X,L,In broader squad pool
+CUW-M,Tyrique Mercera,DEF,unknown,X,X,L,In broader squad pool
+CUW-M,Cuco Martina,DEF,unknown,X,X,L,Veteran; in broader squad pool
+CUW-M,Jearl Margaritha,MID,unknown,X,X,L,In broader squad pool
+CUW-M,Kenji Gorré,MID,unknown,X,X,L,In broader squad pool
+CUW-M,Brandley Kuwas,MID,unknown,X,X,L,In broader squad pool
+CUW-M,Rayvien Rosario,MID,unknown,X,X,L,In broader squad pool

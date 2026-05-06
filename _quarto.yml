@@ -1,0 +1,72 @@
+project:
+  type: default
+  output-dir: _output
+
+# Cornerstone Economics Working Paper Series
+# Single-source paper.qmd renders to PDF (camera-ready) and HTML (web).
+# CE format extensions live in _extensions/cornerstone-economics/
+
+format:
+  pdf:
+    documentclass: scrartcl
+    papersize: a4
+    fontsize: 11pt
+    linestretch: 1.15
+    geometry:
+      - margin=2.5cm
+      - top=3cm
+    colorlinks: true
+    linkcolor: "ce-blue"
+    urlcolor: "ce-blue"
+    citecolor: "ce-blue"
+    toc: false
+    number-sections: true
+    fig-pos: "H"
+    keep-tex: false
+    pdf-engine: xelatex
+    mainfont: "Lato"
+    sansfont: "Lato"
+    mathfont: "Latin Modern Math"
+    include-in-header:
+      - text: |
+          \usepackage{xcolor}
+          \definecolor{ce-blue}{HTML}{4A7A9A}
+          \definecolor{ce-coral}{HTML}{E76F51}
+          \definecolor{ce-gold}{HTML}{E8B84D}
+          \definecolor{ce-near-black}{HTML}{091F38}
+          \usepackage{titling}
+          \usepackage{titlesec}
+          \titleformat*{\section}{\Large\bfseries\color{ce-blue}}
+          \titleformat*{\subsection}{\large\bfseries\color{ce-blue}}
+          \titleformat*{\subsubsection}{\bfseries\color{ce-blue}}
+          \usepackage{fancyhdr}
+          \pagestyle{fancy}
+          \fancyhf{}
+          \fancyhead[L]{\small\color{ce-blue}\textbf{Cornerstone Economics}}
+          \fancyhead[R]{\small\color{ce-blue}$ce-paper-number$}
+          \fancyfoot[C]{\small\thepage}
+          \renewcommand{\headrulewidth}{0.4pt}
+          \renewcommand{\footrulewidth}{0pt}
+          \arrayrulecolor{ce-blue}
+
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    smooth-scroll: true
+    link-external-newwindow: true
+    citations-hover: true
+    crossrefs-hover: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto

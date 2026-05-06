@@ -1,0 +1,138 @@
+---
+title: "Curaçao at the World Cup: what the FIFA ranking does not measure"
+subtitle: "Diaspora effects on national-team performance for small states"
+author:
+  - name: Rendell de Kort
+    orcid: 0000-0000-0000-0000
+    email: rendell@c-economics.com
+    affiliations:
+      - name: Cornerstone Economics
+      - name: Vrije Universiteit Amsterdam
+date: today
+date-format: "MMMM YYYY"
+abstract: |
+  Curaçao qualified for the 2026 FIFA World Cup at world rank 82, the
+  smallest country by population ever to do so. The qualification looks
+  anomalous against the ranking, but the ranking itself is the source of
+  the apparent anomaly. FIFA's Elo-style system rewards frequency of
+  matches against high-rated opponents, which structurally disadvantages
+  small states that have thin domestic competitions and few qualifying
+  fixtures per cycle. For small states with large diasporas the gap is
+  larger still, because most of the available talent develops in foreign
+  league systems that the ranking does not see. This paper formalises the
+  diaspora measurement gap, estimates its size for a panel of small CONCACAF
+  and UEFA states, and shows that the FIFA ranking systematically under-
+  states realised national-team quality where the diaspora-to-resident
+  ratio is high. Curaçao is the most extreme case in the panel and the
+  result is generalisable: it predicts comparable outliers in Cabo Verde,
+  Albania, and Suriname.
+keywords:
+  - small-state economics
+  - diaspora
+  - football
+  - measurement
+  - FIFA ranking
+jel-codes:
+  - F22
+  - Z22
+  - O15
+ce-paper-number: "WP-2026-01"
+ce-version: "0.1-draft"
+ce-doi: "TBD on first release"
+bibliography: references.bib
+csl: https://www.zotero.org/styles/american-economic-association
+format:
+  pdf: default
+  html: default
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Introduction
+
+Curaçao opens its 2026 World Cup against Germany on 14 June. On the FIFA ranking it
+sits at 82. With a population of roughly 150,000 it is the smallest country by population
+ever to qualify for a World Cup, by a wide margin. The combination, low rank and small
+population, looks like an anomaly that needs explaining.
+
+This paper argues that the anomaly is largely an artefact of the measurement system. The
+FIFA ranking is an Elo-style metric that rewards frequency of matches against high-rated
+opponents. A country that plays a thin qualifying schedule against regional opponents,
+even with strong squad-level talent, accumulates ranking points slowly. For small states
+with limited domestic competition and short qualifying windows, that is the standing
+condition. For small states whose available playing pool sits largely in foreign league
+systems through diaspora migration, the ranking misses the part of the squad that is
+actually developing as professionals. The talent is there. The system that converts
+talent into a ranking number does not see most of it.
+
+The empirical question is how large that measurement gap is. The contribution of this
+paper is to put a number on it and to identify the structural conditions under which
+the gap becomes large enough to mislead. Section 2 sets out the measurement mechanics.
+Section 3 introduces the data and the diaspora-pool variable. Section 4 estimates the
+gap for a panel of small CONCACAF and UEFA states. Section 5 returns to the Curaçao
+case and discusses what the result implies for how we measure the performance of small
+states more broadly.
+
+# How the FIFA ranking is built
+
+[To draft. Cover the 2018 SUM-of-the-pre-match-expectation method, weighting by match
+importance and confederation strength, and the implications of low match volume for
+small confederation members. Cite FIFA's published methodology and the Elo critique.]
+
+# A measurement gap for small states with diaspora pools
+
+[To draft. Define the diaspora-to-resident ratio. Define eligible-pool depth via FIFA
+eligibility rules (one senior cap, parent or grandparent qualification, residency).
+Argue that for high-ratio states the ranking input set is restricted to a non-
+representative sub-sample of available quality.]
+
+# Data and method
+
+[To draft. Sources: FIFA ranking history (monthly), Transfermarkt squad valuations,
+ABC squads dataset (`data/abc_squads_iter1.csv`), national census diaspora figures.
+Specification: ranking residual against squad-level Transfermarkt valuation, with
+diaspora ratio as moderator.]
+
+```{r}
+#| label: fig-rank-vs-value
+#| fig-cap: "Placeholder: FIFA ranking versus aggregate Transfermarkt squad valuation, small CONCACAF and UEFA states. Each point is one country."
+# Iteration: 1
+# library(ggplot2)
+# library(dplyr)
+# Plot to be added once data pull is complete.
+```
+
+# Findings
+
+[To draft. State the headline gap. Show the conditional gap on diaspora ratio. Identify
+Curaçao's location in the distribution. Compare against Cabo Verde, Albania, Suriname.]
+
+# Discussion
+
+[To draft. What the result implies for ranking-based decisions, including World Cup
+seeding and confederation development funding. Connect briefly to the small-state
+measurement literature without overreach.]
+
+# Limitations
+
+[To draft. Squad valuation as proxy for realised quality. Selection on observed
+qualification. Diaspora ratio as a coarse instrument for what is actually an
+eligibility-pool variable. The Curaçao case is partly a federation-governance story
+that this paper does not attempt to identify.]
+
+# Conclusion
+
+The Curaçao result is not an outlier against the FIFA ranking. The ranking is an outlier
+against the realised quality available to Curaçao through its diaspora. The same
+mechanism predicts further mis-rankings in the small-state-with-diaspora category. For
+ranking-based decisions about small states this matters. For development-economics
+research that uses national-team performance as a proxy for institutional or human-
+capital outcomes it matters more, because the proxy is contaminated by the same
+measurement gap.
+
+# References {.unnumbered}
+
+::: {#refs}
+:::

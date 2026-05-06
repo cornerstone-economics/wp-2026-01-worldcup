@@ -1,0 +1,78 @@
+/*-- scss:defaults --*/
+
+// Cornerstone Economics brand variables
+$ce-blue: #4A7A9A;
+$ce-coral: #E76F51;
+$ce-gold: #E8B84D;
+$ce-peach: #F4BC8B;
+$ce-beige: #C9B99B;
+$ce-powder: #B8D0D8;
+$ce-near-black: #091F38;
+
+// Bootstrap overrides for the cosmo theme
+$primary: $ce-blue;
+$link-color: $ce-blue;
+$body-color: $ce-near-black;
+$body-bg: #ffffff;
+$font-family-sans-serif: "Avenir Roman", "Avenir", "Avenir Next", "Lato", Arial, sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-color: $ce-blue;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+
+// Working paper title block
+.title-block {
+  border-top: 4px solid $ce-blue;
+  border-bottom: 1px solid $ce-blue;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+// Abstract
+div.abstract {
+  background: lighten($ce-powder, 8%);
+  border-left: 3px solid $ce-blue;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+// Captions and figures
+figcaption,
+.figure-caption,
+caption {
+  color: $ce-near-black;
+  font-size: 0.875rem;
+  font-style: normal;
+}
+
+// Code blocks (rare in WPs, but consistent if used)
+pre {
+  border-left: 3px solid $ce-blue;
+  background: #f7f8fa;
+}
+
+// Tables
+table {
+  thead th {
+    background: lighten($ce-powder, 5%);
+    color: $ce-near-black;
+    border-bottom: 2px solid $ce-blue;
+  }
+}
+
+// Citation tooltip
+.citation:hover {
+  color: $ce-coral;
+}
+
+// Series footer / colophon (added via include-after-body)
+.ce-colophon {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid $ce-powder;
+  font-size: 0.85rem;
+  color: lighten($ce-near-black, 25%);
+  text-align: center;
+}

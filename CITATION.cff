@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+type: generic
+title: "Curaçao at the World Cup: what the FIFA ranking does not measure"
+abstract: "Curaçao qualified for the 2026 FIFA World Cup at world rank 82. This paper formalises the diaspora measurement gap in the FIFA ranking and shows that for small states with large diasporas, the ranking systematically understates realised national-team quality. Curaçao is the most extreme case in the panel."
+authors:
+  - family-names: "de Kort"
+    given-names: "Rendell"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    email: "rendell@c-economics.com"
+    affiliation: "Cornerstone Economics; Vrije Universiteit Amsterdam"
+date-released: "2026-05-14"
+version: "0.1-draft"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.0000000"
+    description: "Zenodo concept DOI (placeholder until first release)"
+keywords:
+  - small-state economics
+  - diaspora
+  - football
+  - measurement
+  - FIFA ranking
+license: CC-BY-4.0
+repository-code: "https://github.com/cornerstone-economics/wp-2026-01-worldcup"
+url: "https://papers.c-economics.com"
