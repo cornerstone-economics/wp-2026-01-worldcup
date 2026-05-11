@@ -1,26 +1,25 @@
 cff-version: 1.2.0
 message: "If you use this paper, please cite it as below."
 type: generic
-title: "Curaçao at the World Cup: what the FIFA ranking does not measure"
-abstract: "Curaçao qualified for the 2026 FIFA World Cup at world rank 82. This paper formalises the diaspora measurement gap in the FIFA ranking and shows that for small states with large diasporas, the ranking systematically understates realised national-team quality. Curaçao is the most extreme case in the panel."
+title: "The diaspora multiplier: Curaçao at the 2026 World Cup and what the resident-population unit cannot see"
+abstract: "Curaçao opens its first World Cup against Germany on 14 June 2026 with about 150,000 residents, the smallest country ever to qualify. Across a global panel of 202 nations, FIFA rank tracks resident population closely; Curaçao sits about 80 rank places higher than its population alone predicts, in the same residual cluster as Uruguay, Croatia, Portugal, Belgium and the Netherlands. The Curaçao men's senior squad carries a Transfermarkt market value of €193 per resident, level with Iceland on 38% of Iceland's population. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool to a multi-generation Dutch-Caribbean diaspora. The paper documents diaspora as national capacity and the methodological problem that the resident-population unit poses for measuring small-state competitive capacity."
 authors:
   - family-names: "de Kort"
     given-names: "Rendell"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0006-5402-0500"
     email: "rendell@c-economics.com"
     affiliation: "Cornerstone Economics; Vrije Universiteit Amsterdam"
-date-released: "2026-05-14"
-version: "0.1-draft"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.0000000"
-    description: "Zenodo concept DOI (placeholder until first release)"
+date-released: "2026-05-21"
+version: "0.2-draft"
 keywords:
   - small-state economics
   - diaspora
-  - football
-  - measurement
+  - football economics
+  - Caribbean
+  - Curaçao
   - FIFA ranking
+  - migration
+  - World Cup 2026
 license: CC-BY-4.0
 repository-code: "https://github.com/cornerstone-economics/wp-2026-01-worldcup"
 url: "https://papers.c-economics.com"

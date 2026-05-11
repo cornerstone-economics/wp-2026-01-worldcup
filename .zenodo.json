@@ -1,0 +1,28 @@
+{
+  "title": "The diaspora multiplier: Curaçao at the 2026 World Cup and what the resident-population unit cannot see",
+  "description": "First Cornerstone Economics Working Paper. Curaçao at the 2026 World Cup, the diaspora-as-national-capacity framing, and what the resident-population unit cannot see for small states with substantial diasporas. Empirical work covers a global panel of 202 FIFA-ranked countries, a 13-country focal panel with Transfermarkt squad valuations, and a within-Kingdom comparison across the four Aruba and Curaçao senior squads. Full reproducible R pipeline included.",
+  "creators": [
+    {
+      "name": "de Kort, Rendell",
+      "affiliation": "Cornerstone Economics; Vrije Universiteit Amsterdam",
+      "orcid": "0009-0006-5402-0500"
+    }
+  ],
+  "communities": [
+    {"identifier": "c-economics"}
+  ],
+  "keywords": [
+    "small-state economics",
+    "diaspora",
+    "football economics",
+    "Caribbean",
+    "Curaçao",
+    "FIFA ranking",
+    "migration",
+    "World Cup 2026"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open"
+}
