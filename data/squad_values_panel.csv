@@ -1,0 +1,14 @@
+country,iso3,n_players,total_value_mil,mean_value_mil,median_value_mil,n_valued,tm_url,access_date
+Albania,ALB,23,81.75,3.5543,NA,23,https://www.transfermarkt.com/,2026-05-10
+Iceland,ISL,23,74.03,3.2187,NA,23,https://www.transfermarkt.com/,2026-05-10
+Montenegro,MNE,26,60.13,2.3127,NA,26,https://www.transfermarkt.com/,2026-05-10
+Haiti,HTI,25,55.35,2.214,NA,25,https://www.transfermarkt.com/,2026-05-10
+Jamaica,JAM,27,53.78,1.9919,NA,27,https://www.transfermarkt.com/,2026-05-10
+Cabo Verde,CPV,36,44.85,1.2458,NA,36,https://www.transfermarkt.com/,2026-05-10
+North Macedonia,MKD,26,38.7,1.4885,NA,26,https://www.transfermarkt.com/,2026-05-10
+Suriname,SUR,26,37.7,1.45,NA,26,https://www.transfermarkt.com/,2026-05-10
+Luxembourg,LUX,24,32.9,1.3708,NA,24,https://www.transfermarkt.com/,2026-05-10
+Panama,PAN,23,32.4,1.4087,NA,23,https://www.transfermarkt.com/,2026-05-10
+Curaçao,CUW,26,28.73,1.105,NA,26,https://www.transfermarkt.com/,2026-05-10
+Malta,MLT,27,14.35,0.5315,NA,27,https://www.transfermarkt.com/,2026-05-10
+Trinidad and Tobago,TTO,25,10.08,0.4032,NA,25,https://www.transfermarkt.com/,2026-05-10

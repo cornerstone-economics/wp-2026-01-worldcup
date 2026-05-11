@@ -1,6 +1,6 @@
 ---
-title: "Curaçao at the World Cup: what the FIFA ranking does not measure"
-subtitle: "Diaspora effects on national-team performance for small states"
+title: "The diaspora multiplier"
+subtitle: "Curaçao at the 2026 World Cup and what the resident-population unit cannot see"
 author:
   - name: Rendell de Kort
     orcid: 0000-0000-0000-0000
@@ -11,21 +11,39 @@ author:
 date: today
 date-format: "MMMM YYYY"
 abstract: |
-  Curaçao qualified for the 2026 FIFA World Cup at world rank 82, the
-  smallest country by population ever to do so. The qualification looks
-  anomalous against the ranking, but the ranking itself is the source of
-  the apparent anomaly. FIFA's Elo-style system rewards frequency of
-  matches against high-rated opponents, which structurally disadvantages
-  small states that have thin domestic competitions and few qualifying
-  fixtures per cycle. For small states with large diasporas the gap is
-  larger still, because most of the available talent develops in foreign
-  league systems that the ranking does not see. This paper formalises the
-  diaspora measurement gap, estimates its size for a panel of small CONCACAF
-  and UEFA states, and shows that the FIFA ranking systematically under-
-  states realised national-team quality where the diaspora-to-resident
-  ratio is high. Curaçao is the most extreme case in the panel and the
-  result is generalisable: it predicts comparable outliers in Cabo Verde,
-  Albania, and Suriname.
+  Curaçao opens its first World Cup against Germany on 14 June 2026. With
+  about 150,000 residents it is the smallest country ever to qualify for
+  the men's tournament, less than half the population of the previous
+  record holder, Iceland in 2018. At world rank 82 the qualification
+  reads as anomalous: a low-ranked country reaching the final stage
+  despite a population gap with every other finalist. The natural
+  inference is that the FIFA ranking is missing quality the
+  resident-population framing cannot see.
+
+  The data say otherwise. Across 202 nations with complete data, FIFA rank
+  moves systematically with resident population, and population alone
+  explains close to a third of the global variation in rank. The ranking
+  is doing roughly what population alone predicts. Curaçao is over-performing
+  its population by about 80 rank places. The residual cluster Curaçao sits
+  in includes Uruguay, Croatia, Portugal, Belgium, and the Netherlands.
+  Curaçao and the Netherlands occupy the same residual position on the
+  population-rank axis, one at 150,000 residents and one at 17.5 million.
+
+  The squad behind the rank is where the question goes. The Curaçao men's
+  senior squad carries a Transfermarkt market value
+  of 193 euros per resident, equal to Iceland's, and roughly four times
+  the median of our 13-country comparison panel. Every player in the
+  current call-up develops abroad in a professional league. FIFA's
+  parent-and-grandparent eligibility rule extends the recruitable pool
+  from 150,000 residents to a multi-generation diaspora concentrated in
+  Dutch and other European professional football.
+
+  We are explicit that this is a single case in a single qualification
+  cycle, and we do not over-read it. What the Curaçao result raises,
+  regardless of how the 2026 tournament unfolds, is a methodological
+  question: in small states with substantial diasporas, the
+  resident-population unit may not be the right reference for measuring
+  competitive capacity.
 keywords:
   - small-state economics
   - diaspora
@@ -37,10 +55,10 @@ jel-codes:
   - Z22
   - O15
 ce-paper-number: "WP-2026-01"
-ce-version: "0.1-draft"
+ce-version: "0.2-draft"
 ce-doi: "TBD on first release"
 bibliography: references.bib
-csl: https://www.zotero.org/styles/american-economic-association
+csl: chicago-author-date.csl
 format:
   pdf: default
   html: default
@@ -52,85 +70,495 @@ execute:
 
 # Introduction
 
-Curaçao opens its 2026 World Cup against Germany on 14 June. On the FIFA ranking it
-sits at 82. With a population of roughly 150,000 it is the smallest country by population
-ever to qualify for a World Cup, by a wide margin. The combination, low rank and small
-population, looks like an anomaly that needs explaining.
+Curaçao opens its first World Cup against Germany on 14 June 2026. On the FIFA ranking
+it sits at 82. With a resident population near 150,000 it is the smallest country ever
+to qualify for the men's tournament, by a factor of two over Iceland in 2018. Two
+features of the case look anomalous at first reading. The world rank is below the
+population's natural peer group. The qualification itself sits below the population
+gap to every other finalist in the field. The natural reading is that the ranking
+under-measures Curaçao's actual football quality.
 
-This paper argues that the anomaly is largely an artefact of the measurement system. The
-FIFA ranking is an Elo-style metric that rewards frequency of matches against high-rated
-opponents. A country that plays a thin qualifying schedule against regional opponents,
-even with strong squad-level talent, accumulates ranking points slowly. For small states
-with limited domestic competition and short qualifying windows, that is the standing
-condition. For small states whose available playing pool sits largely in foreign league
-systems through diaspora migration, the ranking misses the part of the squad that is
-actually developing as professionals. The talent is there. The system that converts
-talent into a ranking number does not see most of it.
+That reading is wrong. Across a panel of 202 nations, FIFA rank tracks resident
+population with a coefficient that is large in size, narrow in confidence, and
+significant at p below ten to the minus eighteen. Larger countries rank better, with
+a slope of roughly fifteen rank places gained per natural-log unit of population. The
+relationship is the noisiest in the upper-middle ranks where many countries cluster,
+but the population term alone explains close to a third of the variance in rank
+across the world. The FIFA ranking captures most of what population alone predicts
+about national-team quality. This is consistent with the long-standing finding in
+the sports-economics literature that aggregate national-team performance is well
+explained by economic and demographic mass [@milanovic2005globalization;
+@hoffmann2002socio; @houston2002income; @yamamura2009technology]. The ranking is
+doing the work the public gives it credit for.
 
-The empirical question is how large that measurement gap is. The contribution of this
-paper is to put a number on it and to identify the structural conditions under which
-the gap becomes large enough to mislead. Section 2 sets out the measurement mechanics.
-Section 3 introduces the data and the diaspora-pool variable. Section 4 estimates the
-gap for a panel of small CONCACAF and UEFA states. Section 5 returns to the Curaçao
-case and discusses what the result implies for how we measure the performance of small
-states more broadly.
+What it does not do, and was never going to do, is generate squad quality. Curaçao's
+position in the residual distribution of that population-rank relationship is the
+seventh strongest in the world, alongside Uruguay, Croatia, Portugal, Belgium and the
+Netherlands. The country ranks roughly eighty places higher than its 150,000 residents
+alone predict. That residual is the squad. The Curaçao men's national squad carries
+a market value per resident equal to Iceland's, at thirty-eight per cent of Iceland's
+population, and the squad's club distribution is unambiguous: every senior player
+develops in a foreign professional league, and not one in the current call-up is
+based on Curaçao itself. The squad is a
+diaspora pyramid that exceeds what the resident base could carry on its own.
 
-# How the FIFA ranking is built
+This paper sets out the empirical pattern, locates Curaçao within it, and returns to
+what diaspora explains and what it does not. Section 2 describes the FIFA ranking and
+the population-rank relationship across the global panel. Section 3 specifies the
+diaspora mechanism, links it to FIFA eligibility rules, and shows where the pool of
+foreign-trained players sits in the four Aruba and Curaçao squads. Section 4 documents the data and
+sources. Section 5 reports the findings, including the cross-country regression on
+202 countries, the residual cluster around Curaçao, and the per-capita squad value.
+Section 6 discusses what the result implies for the small-state-football literature
+and where the diaspora story stops being the explanation. Section 7 sets out
+limitations.
 
-[To draft. Cover the 2018 SUM-of-the-pre-match-expectation method, weighting by match
-importance and confederation strength, and the implications of low match volume for
-small confederation members. Cite FIFA's published methodology and the Elo critique.]
+# Population, ranking, and the global pattern
 
-# A measurement gap for small states with diaspora pools
+The FIFA men's world ranking is an Elo-style points system rebuilt in 2018 around the
+sum of expected and actual results. Each fixture produces a points exchange that
+depends on the pre-match rating gap between the two sides, the importance of the
+match in the FIFA calendar, and a confederation-strength multiplier. Matches in the
+World Cup and continental finals carry the heaviest weight; friendlies the lightest.
+The system is designed to converge on each side's true rating across many fixtures.
+For most of the federations in the panel, the convergence works.
 
-[To draft. Define the diaspora-to-resident ratio. Define eligible-pool depth via FIFA
-eligibility rules (one senior cap, parent or grandparent qualification, residency).
-Argue that for high-ratio states the ranking input set is restricted to a non-
-representative sub-sample of available quality.]
+Where the system has known limitations is at the ends of the distribution and where
+match volume is thin. Small confederation members play few competitive fixtures per
+cycle, draw most of those fixtures against regional opponents in similar rating
+bands, and accumulate or shed points slowly. The resulting rank is informative but
+the marginal sensitivity to a single result is low. Reviewers of the 2018 reform have
+documented these volume effects in the predictive-accuracy literature
+[@lasek2013predictive; @lasek2016improve].
+
+What the public discussion of small-state qualifications often misses is that the
+ranking is, on average, doing close to the work population alone would predict. The
+broader pattern is consistent with what @mak2026voetbal finds at the European-club
+scale: a country's UEFA club coefficient rises with national GDP, with Cyprus, the
+Faroe Islands and Portugal as the visible upward outliers. We are working with a
+different unit of analysis, national teams rather than clubs, and a different
+predictor, resident population rather than GDP, but the broad shape is the same.
+Economic and demographic mass predict competitive football performance; the
+analytical interest lives in the residuals.
+We estimate the population-rank relationship for the 202 FIFA-listed countries with
+non-missing United Nations migrant stock and World Bank population data. The
+specification is
+
+$$
+\text{rank}_i = \alpha + \beta \, \log(\text{population}_i) + \varepsilon_i
+$$
+
+with rank coded so that lower numbers indicate higher quality. The estimated slope is
+$\hat\beta = -15.2$ ($p < 10^{-18}$), the intercept is 342, and adjusted $R^2$ is
+0.31. Adding log diaspora-per-capita as a second regressor changes the population
+coefficient by less than one unit and produces a marginally significant additional
+effect of the right sign ($\hat\beta_{\text{dia/pc}} = -4.16$, $p = 0.16$). The
+interaction of population and diaspora is statistically indistinguishable from zero.
+What this tells us is straightforward. Population is a strong descriptive predictor
+of rank, the FIFA ranking is broadly internally consistent, and a country's rank
+residual against population is the sharper analytical object than the rank itself.
+
+```{r}
+#| label: fig-pop-vs-rank-global
+#| fig-cap: "FIFA rank versus log resident population, 202 countries. Lower y is a better rank. Curaçao is highlighted in coral; the trend line is rank ~ log(population) with 95% confidence interval. Source: FIFA men's ranking 10 May 2026; World Bank WDI population (latest available)."
+knitr::include_graphics("figures/fig6_global_pop_vs_rank.png")
+```
+
+# Diaspora and the eligible-pool extension
+
+Population is the natural denominator for predicting football quality only as long as
+the pool of eligible players for a national team is the resident population. FIFA
+eligibility rules unlock a second source. A player is eligible to play for a country
+if they were born there, if a parent or grandparent was born there, or if they have
+lived there for the relevant residency period set by the Statutes [@fifa2024statutes].
+Crucially, a player remains eligible for a national team after switching residence,
+and the senior-cap-tied option allows mid-career switches in well-defined conditions
+that broaden the realised pool further [@holmes2011fluid]. For most of the world this
+set of rules is slack. Most national teams draw a clear majority of their senior
+squad from resident-trained players, and the eligibility-pool extension changes the
+headline number by a small share of the squad.
+
+For small states with substantial diasporas, the rules bind differently. The
+diaspora-resident ratio acts as a multiplier on the population denominator. Where
+diaspora pools sit in countries with deep professional football pyramids, the
+extension is not just numerical but compositional. Foreign-trained eligible players
+enter the squad already developed at higher tiers than the domestic system can
+produce. This dynamic is part of a broader literature on football labour migration
+and the international division of football labour that has documented the flow of
+elite talent from peripheral states into a small number of host professional pyramids
+[@magee2002world; @poli2010understanding; @darby2007out]. That literature has mostly
+framed the flow as brain drain from the sending federations. With the eligibility
+rules operative, the same flow does something else: it builds an eligibility pool
+the sending federation can call on, and the trained-abroad talent shows up in the
+sending federation's national output. We are looking at the same migration, with the
+federation eligibility rules read in.
+
+The football case is a measurable instance of a broader claim in Caribbean diaspora
+studies. @guadeloupe2026reweaving, accepting the Chair of Public Anthropology of
+Kingdom Relations at the University of Amsterdam, argues that the Dutch Caribbean
+islands and the Netherlands cannot be read as separate worlds with distinct native
+cultures because the life trajectories of singular people interweave the Kingdom on
+an everyday level. The argument extends earlier ethnographic work on Afro-Antillean
+identity in Dutch popular culture [@guadeloupe2022black] and connects to a longer
+tradition in postcolonial migration and cultural-identity scholarship that treats
+diaspora not as displacement from a settled home but as a constitutive condition of
+identity itself [@hall1990cultural; @oostindie2011postcolonial; @gilroy1993black]. The
+diaspora-fed pyramid we describe is one quantitative shape of that interweaving.
+Curaçaoan families with one branch in Willemstad and another in Rotterdam already
+know what an interwoven Kingdom looks like. The paper puts a number on it. The extreme end of this pattern is the case where the
+squad is fully diaspora-trained and the resident base contributes none of the senior
+call-ups. Among
+the four Aruba and Curaçao national teams in the data, this is the standing condition for
+the Curaçao men's senior squad: zero of the most recent thirty-two confirmed call-ups
+play their club football on the island. The same compositional reading shows up in
+slightly weaker form for Cabo Verde, where the bulk of the senior pool develops in
+the Portuguese and Dutch systems, and for Suriname, where the heritage pool with the
+Netherlands is structurally similar to Curaçao's.
+
+The same population, when the diaspora extends the pool that way, supports a squad
+that the resident base alone could not. Section 5 quantifies this through the
+per-resident squad market value and reports the regression of rank on population
+across all 202 panel countries. The mechanism is descriptively visible in the four
+Aruba and Curaçao squads in figure 2 and in the residual distribution in figure 6.
+
+```{r}
+#| label: fig-squad-location
+#| fig-cap: "Composition of the four Aruba and Curaçao national-team squads by where players play their club football, most recent confirmed call-ups. The Curaçao men's squad has zero players based on the island. Bonaire, the third ABC island, has men's and women's national teams in CONCACAF/CFU but is not a FIFA member and is excluded from this comparison. Source: Cornerstone Economics ABC squads dataset, iter 1, April 2026."
+knitr::include_graphics("figures/fig2_squad_location.png")
+```
 
 # Data and method
 
-[To draft. Sources: FIFA ranking history (monthly), Transfermarkt squad valuations,
-ABC squads dataset (`data/abc_squads_iter1.csv`), national census diaspora figures.
-Specification: ranking residual against squad-level Transfermarkt valuation, with
-diaspora ratio as moderator.]
+The empirical work draws on four sources. FIFA's published men's world ranking
+provides current rank and total ranking points for 211 federations as of 10 May 2026
+[@fifa2026ranking]. World Bank World Development Indicators give resident populations
+for the most recent available year (2023 or 2024 in most cases) [@wdi2025]. The
+United Nations Department of Economic and Social Affairs International Migrant Stock
+2024 provides the bilateral migrant stock matrix from which we recover diaspora as
+the sum of country-of-origin migrants resident outside the country [@undesa2024].
+Squad market values come from Transfermarkt's national-team headers, accessed on 10
+May 2026 for thirteen focal countries selected for descriptive contrast: Curaçao plus
+Cabo Verde, Albania, Suriname, Iceland, Malta, Luxembourg, Montenegro, North
+Macedonia, Jamaica, Trinidad and Tobago, Panama, and Haiti [@transfermarkt2026]. The
+focal-country selection covers Curaçao's small-state-with-diaspora category, the
+two CONCACAF World Cup co-hosts that are not the United States, the European peers
+that have qualified or come close in recent cycles, and the African and Caribbean
+mid-table cases that complete the diaspora-ratio range. Transfermarkt valuations are
+crowd-sourced from a community of contributors and reflect expected fee on the open
+transfer market rather than current performance; the validity literature has
+documented both the aggregate accuracy and the systematic biases of this measure
+[@herm2014crowd; @coates2022wisdom; @muller2017beyond; @peeters2018testing]. We use
+the aggregate squad-level total rather than individual valuations, which the
+literature finds more robust. Squad-tier composition for the four Aruba and Curaçao
+national teams comes from the Cornerstone Economics ABC squads dataset, iteration 1,
+April 2026. Bonaire, the third island in the ABC grouping, has men's and women's
+national teams affiliated with CONCACAF and the Caribbean Football Union but is not
+a FIFA member; its squads are not part of the FIFA-ranking analysis and are excluded
+from the data here.
 
-```{r}
-#| label: fig-rank-vs-value
-#| fig-cap: "Placeholder: FIFA ranking versus aggregate Transfermarkt squad valuation, small CONCACAF and UEFA states. Each point is one country."
-# Iteration: 1
-# library(ggplot2)
-# library(dplyr)
-# Plot to be added once data pull is complete.
-```
+The analytical strategy proceeds at two scales. The cross-country regression of rank
+on log population runs on 202 countries with non-missing United Nations migrant stock
+and World Bank population data. We extend this with log diaspora-per-capita as an
+additional regressor, with the interaction term, and with log diaspora as a third
+regressor to test absolute-scale effects against the per-capita specification.
+Confederation fixed effects were considered but excluded from the headline
+specification because confederation membership and population are not orthogonal in
+the panel. The descriptive analysis uses the thirteen focal countries to compute
+per-resident Transfermarkt squad value and to relate squad composition to the
+per-capita result.
+
+The reproducibility chain is fully scripted. Five R scripts in the repository
+(`analysis/01_data_pull.R` through `analysis/05_models.R`, with `01b`, `01c`, `02b`,
+`05b` extending the global panel) take the four hand-curated input files in
+`data/raw/` to the regression results table and the figures in this paper. The
+diaspora-source CSV records each value's source URL with a verification flag; the
+script refuses to write the diaspora panel until every row is flagged verified.
 
 # Findings
 
-[To draft. State the headline gap. Show the conditional gap on diaspora ratio. Identify
-Curaçao's location in the distribution. Compare against Cabo Verde, Albania, Suriname.]
+Three results sit at the centre of the paper. We report each with its empirical
+shape rather than a single headline number.
+
+The first is the global population-rank relationship. Across 202 panel countries
+with complete population and United Nations migrant stock data, FIFA rank is
+predicted by log population at a coefficient of $-15.2$ ($p = 2.3 \times 10^{-18}$)
+with adjusted $R^2$ of 0.31 (specification G1, table 1). Adding log
+diaspora-per-capita as a second regressor leaves the population coefficient
+essentially unchanged, increases the adjusted $R^2$ marginally, and yields a
+diaspora-per-capita coefficient of $-4.16$ ($p = 0.16$). The sign is the one the
+diaspora mechanism predicts: countries with larger per-resident diasporas rank
+better than population alone implies. The size of the effect is meaningful but the
+significance is marginal at this $n$, and the additive specification (G2) is the
+preferred reduced form. The interaction specification (G3) cannot be distinguished
+from G1 plus noise.
+
+The second result is Curaçao's location in the residual distribution. Computed
+against the population-only specification, Curaçao's residual is $-79.8$ rank
+places: actual rank 82 against a population-predicted rank of 162. The negative
+sign indicates a country ranked considerably better than its resident population
+alone predicts. Eighty places of residual is large in absolute terms; six countries
+in the world have a more extreme over-ranking residual on this metric, and the six
+are Uruguay, Croatia, Denmark, Portugal, Belgium and the Netherlands. Curaçao
+ranks seventh in this residual distribution, ahead of Switzerland, Norway, Panama,
+and the Republic of Ireland. We are not arguing that Curaçao is the football peer
+of Croatia or Portugal. We are reporting that on the population-rank axis the
+country occupies the same residual position as those federations.
+
+The third result is the per-resident squad market value. The Curaçao men's squad
+carries an aggregate Transfermarkt valuation of €28.7 million on 26 players. The
+resident population at most recent estimate is 148,925. The per-resident value is
+€193. Iceland's per-resident value, computed identically, is €191. No other panel
+country reaches half of either figure. Cabo Verde follows at €85, Suriname at €60,
+Luxembourg at €49 and Albania at €30 (figure 5). What this result says, in
+combination with the squad composition in figure 2, is that the resident base of
+Curaçao is supporting a football pyramid the size of Iceland's at thirty-eight per
+cent of the residents. The mechanism is the diaspora-fed eligibility pool: every
+player in the senior squad develops in a foreign professional league, and the
+weighted distribution of those leagues skews toward European top-flight and
+second-tier teams. The squad is, in pyramid terms, a Dutch-Turkish-German
+construction with a Caribbean badge.
+
+```{r}
+#| label: fig-per-capita-squad
+#| fig-cap: "Transfermarkt squad market value per resident, thirteen-country focal panel. Curaçao matches Iceland at €193 per resident, on a resident population thirty-eight per cent of Iceland's. Source: Transfermarkt 10 May 2026; World Bank WDI population (latest)."
+knitr::include_graphics("figures/fig5_per_capita_squad.png")
+```
 
 # Discussion
 
-[To draft. What the result implies for ranking-based decisions, including World Cup
-seeding and confederation development funding. Connect briefly to the small-state
-measurement literature without overreach.]
+The first thing the result clears away is the framing that FIFA's ranking misses
+small-state quality. It does not. At the global scale the ranking does most of what
+population alone predicts, and the residuals against population are the analytically
+meaningful object. Where the popular and academic discussion has gone is to read
+small-state qualifications as ranking failures. The data point in the other
+direction. For Curaçao specifically, the rank is roughly eighty places higher than
+its 150,000 residents predict, and this is consistent with a squad whose per-resident
+market value matches Iceland's. The rank is doing what the squad value implies.
+
+One observation in this residual structure is worth surfacing because of how
+Curaçao's qualification is read in Dutch public discussion. The Netherlands is
+Curaçao's constitutional partner in the Kingdom of the Netherlands and the typical
+reference point for how Dutch and Dutch-Caribbean audiences read Curaçao's place in
+the football world. Both countries sit in the same residual cluster against
+population. The Netherlands at 17.5 million gets there through a deep domestic
+professional league and decades of academy investment. Curaçao at 150,000 gets there
+through a diaspora-fed eligibility pool that draws on the same Dutch professional
+pyramid. Different mechanism, same residual position.
+
+What matters then is the squad. Curaçao's squad is, in
+descriptive terms, a Dutch-Turkish-German-Saudi football pyramid carrying a Caribbean
+flag. The pyramid is built from the diaspora-fed eligibility pool, with FIFA's
+parent-and-grandparent rule and the senior-cap-tied switching option doing most of
+the analytical work. For policy, this reframes the relevant question. Confederation
+development funding tied to FIFA-rank improvement implicitly rewards the ranking
+output without separating the squad-quality and federation-governance components that
+generate it. The Curaçao case shows that for small states the squad component can be
+imported almost in full from professional football in higher-tier countries; the
+federation-governance question is then a different one, about how a federation
+attracts, retains, and integrates diaspora-eligible players.
+
+The result does not generalise to all small states with substantial diasporas, and
+the data are explicit about why. Diaspora-per-capita is a marginally significant
+predictor of rank residual ($p = 0.16$), not a robust one. The under-rankers at the
+bottom of the residual distribution are concentrated in cricket-dominated South Asia
+and in countries with disrupted football infrastructure, where the diaspora story is
+not the binding constraint. We are documenting a strong descriptive pattern in a sub-class of states
+where diaspora structure, FIFA eligibility rules and high-tier foreign professional
+leagues align, not a universal mechanism. Curaçao is the most extreme case in the
+data and the case the paper is built around.
+
+A within-CONCACAF comparison sharpens the point. Jamaica sits in the same qualifying
+confederation as Curaçao with a substantial UK-based diaspora drawing on the English
+professional pyramid, a 0.40 diaspora-to-resident ratio, and an over-ranking residual
+against population in the same direction as Curaçao's. Jamaica did not qualify in the
+2026 cycle. The binary qualification outcome depends on contingencies that no
+structural model captures: group draws, federation execution, the variance in how a
+group of foreign-developed players performs together on a given day, the small
+individual moments inside specific matches, and external shocks ranging from weather
+events to injury timing. The diaspora-fed eligibility pool is necessary for the
+squad-quality result we describe but not sufficient for the qualification outcome.
+Small variations in any of these contingent factors could have produced a different
+qualifying outcome, and a different paper.
+
+A within-Kingdom case sharpens the same logic. All four men's and women's ABC squads
+in our data operate under identical FIFA eligibility rules and can recruit from the
+same Dutch professional football pyramid. The four outcomes vary substantially.
+Curaçao men field a fully diaspora-trained squad and qualified for the 2026 World
+Cup; Aruba men field fourteen island-based players and did not. The pattern flips on
+the women's side. Aruba women beat Curaçao women 6-1 on 13 April 2026, the first
+Aruban win in qualifier history and Curaçao women's fourth consecutive defeat.
+Behind the result sits a federation choice: Aruba's women's team has been coached
+since March 2024 by Arjan van der Laan, a former head coach of the Netherlands
+women's national team, who has actively recruited Dutch-system players with Aruban
+heritage. The Curaçao women's federation has not made the equivalent move. All four
+squads sit inside the same Kingdom under identical rules with access to the same
+host pyramid. What produces the variation is federation execution and pipeline
+thickness.
+
+Cape Verde provides a positive within-panel parallel. With a 525,000-person resident
+population, a 0.37 diaspora-to-resident ratio on the UN DESA measure, a Cape Verdean
+heritage-pool estimate from government and IOM sources that exceeds the resident
+population, and a per-resident squad value of €85 (third in the panel after Curaçao
+and Iceland), Cape Verde sits in the same structural sub-class on the descriptive
+axes the paper foregrounds. The senior squad develops in the Netherlands, with a
+long-standing Cape Verdean concentration in the Rotterdam area, and in the
+Portuguese top flight. The mechanism is recognisable: a diaspora-fed eligibility pool
+that extends the football pyramid beyond what the resident base alone supports. Cape
+Verde occupies a structurally adjacent position on the descriptive axes the paper
+foregrounds.
+
+For research that uses national-team performance as a proxy for institutional or
+human-capital outcomes in small states, the implication is methodological. The
+ranking is a reasonable measure of national-team performance. National-team
+performance, in turn, is a contaminated proxy for resident human capital where the
+diaspora pool is large relative to the resident pool. The proxy mismeasures the unit
+of analysis rather than being biased against it. For Curaçao a national-team result
+captures the diaspora pyramid more than the resident base, and inference from the
+rank back to the resident development outcome should be calibrated accordingly.
+
+The framing connects to a long-running thread in the small-state-economics literature
+on how resident-population denominators systematically mis-state the competitive
+capacity of micro- and small-island economies and polities [@briguglio1995small;
+@bertram2004convergence; @easterly2000small; @armstrong2003determinants;
+@streeten1993microstates; @corbett2018democracy]. That literature has typically focused on income volatility,
+trade openness, and MIRAB-style transfer dependence [@bertram1985mirab]; the
+diaspora-as-eligibility-pool channel we identify is a different mechanism on the same
+analytical axis. It is also consistent with the diaspora-economics literature that
+treats diasporas as economic extensions of the sending country rather than as
+brain-drain leakages [@docquier2012globalization; @beine2001brain; @gould1994immigrant;
+@saxenian2006argonauts; @kapur2010diaspora]. The football pyramid is one of the few
+empirical settings where this re-incorporation through a clearly-defined eligibility
+rule is directly observable and quantifiable. The broader phenomenon almost certainly
+operates in any domain where institutional eligibility rules and a deep host-country
+professional infrastructure align. Three candidate domains are worth naming, because
+they are the ones where small-state development outcomes are most commonly
+mis-measured against the resident population. Academic publishing: a small-country
+research output is partly the work of diaspora scientists trained at foreign
+institutions and reattached to the home country through co-authorship and affiliation
+rules that are themselves a form of eligibility. Medical specialism: the cardiologists,
+oncologists and surgeons in a small-country tertiary hospital frequently trained in
+Houston, Boston or Amsterdam, are licensed under home-country eligibility frameworks,
+and produce health outcomes the resident professional base alone could not support.
+Specialised business services: the law, audit and financial-engineering capacity of a
+small country with a substantial professional diaspora draws on training and
+credentials the resident base could not generate independently. In each case, the
+resident-population unit understates the country's competitive capacity, for the same
+reason it understates Curaçao's in football: the eligibility rules let host-country
+infrastructure feed home-country output. The football pyramid is the most legible
+case. The phenomenon is more general.
+
+Two adjacent markets carry the same test, both in real time. Betting markets price
+expected match outcomes; secondary ticket markets price expected demand for the
+match experience. Both reveal what the public actually believes about Curaçao's
+quality, and neither needs the FIFA ranking to do so. Dynamic pricing for the
+14 June Curaçao-Germany opener has placed it among the most affordable group-stage
+tickets at the tournament: resale prices around US\$300 against a tournament-wide
+average that runs several times higher, with platforms framing the match as
+attractive entry-level pricing because the on-paper mismatch suppresses demand.
+Betting-market odds for the same match imply a Curaçao win probability that, on
+the squad-value-implied quality of the side, is plausibly too low. The FIFA
+ranking, as we have shown, captures most of what resident population predicts about
+national-team quality. Whether betting markets and ticket markets do the same is a
+separate question. If both systematically underestimate teams like Curaçao the way
+resident-population metrics do, the under-measurement claim extends beyond the
+ranking into public expectations more broadly, and the diaspora-fed pyramid becomes
+a pricing anomaly as well as a measurement question. The empirical test we flag for
+a multi-cycle deepening of the analysis combines betting-market closing odds, secondary
+ticket-market prices, and realised match outcomes across small-state-with-diaspora
+qualifications. The Curaçao-Germany ticket evidence is already in plain sight.
 
 # Limitations
 
-[To draft. Squad valuation as proxy for realised quality. Selection on observed
-qualification. Diaspora ratio as a coarse instrument for what is actually an
-eligibility-pool variable. The Curaçao case is partly a federation-governance story
-that this paper does not attempt to identify.]
+The cross-country regression rests on a single snapshot of FIFA rank from 10 May
+2026. Rank is a slow-moving aggregate, but the full power of the relationship would
+benefit from a time-series specification with country fixed effects across multiple
+cycles, which we leave for a later iteration of the paper. The thirteen-country
+focal panel for per-resident squad value is a curated convenience sample chosen for
+descriptive contrast. Including or excluding individual countries shifts the
+per-resident ranking but does not change the headline result that Curaçao and
+Iceland sit at the top of the panel and other countries cluster well below them.
+
+Transfermarkt squad market values are an imperfect proxy for realised quality. The
+platform is the standard reference for transfer-market valuation in academic and
+industry work [@coates2022wisdom; @herm2014crowd], but the values are
+crowd-sourced from a community of contributors. They reflect expected fee on the
+open transfer market rather than current performance, and for non-top-flight
+players the variance widens. The aggregate per-squad number is more stable than any
+individual valuation, but the per-resident finding for Curaçao would benefit from a
+robustness check using alternative quality measures such as players' minutes at
+top-tier clubs or a club-tier-weighted index.
+
+The diaspora measure is the United Nations DESA total stock of country-of-origin
+migrants resident outside the country. This is the standard cross-country measure
+but it is a coarse instrument for what we actually want, which is the football
+eligibility pool. The eligibility pool depends on FIFA's grandparent rule, on
+residency conditions, and on senior-cap-tied switching. The first-generation migrant
+stock under-counts the second- and third-generation descendants, which CBS Netherlands
+and the Government of Cabo Verde track at substantially higher numbers for the
+relevant Caribbean and African cases. We use the United Nations measure for
+cross-country consistency and report the Netherlands-CBS heritage-pool figure
+descriptively for the cases where it exists.
+
+Selection on observed qualification is the relevant identification concern. We see
+Curaçao at the residual we report partly because Curaçao qualified, and we cannot
+test the counterfactual where Curaçao did not. A more demanding identification
+strategy would compare the residual distribution across multiple qualification
+cycles for the same set of small states. We do not undertake this here, and we
+present the empirical pattern as descriptive and suggestive rather than as a causal
+identification of the diaspora effect.
+
+Finally, federation governance is part of the Curaçao story that this paper does not
+attempt to model. Dick Advocaat's leadership of the team through the qualifying
+campaign, his replacement by Fred Rutten in February 2026 after Advocaat resigned for
+family reasons, the Federashon Futbol Korsou's recruitment of senior
+diaspora-eligible players over the previous cycle, and the qualifying-window
+scheduling decisions made by CONCACAF all sit upstream of the squad-quality and rank
+outcomes we observe. Advocaat's appointment in particular reads as the
+federation-governance choice that converted a latent diaspora-fed eligibility pool
+into a functional squad on the field: a coach with deep Dutch professional-football
+networks and a serious-national-team CV, brought in to make playing for Curaçao a
+credible option for diaspora-eligible players already in the Eredivisie, the Süper Lig
+and other European systems. The mechanism this paper describes is necessary but not
+sufficient for that conversion; the governance work that closes the gap is a separate
+analytical object. We treat all of this as given. A federation-governance
+specification of the residual, focused on how small federations make the conversion
+from diaspora-eligibility-pool to fielded-squad, is the most natural candidate for a
+follow-up paper.
 
 # Conclusion
 
-The Curaçao result is not an outlier against the FIFA ranking. The ranking is an outlier
-against the realised quality available to Curaçao through its diaspora. The same
-mechanism predicts further mis-rankings in the small-state-with-diaspora category. For
-ranking-based decisions about small states this matters. For development-economics
-research that uses national-team performance as a proxy for institutional or human-
-capital outcomes it matters more, because the proxy is contaminated by the same
-measurement gap.
+The case for reading Curaçao's qualification as anomalous against the FIFA ranking
+does not survive the data. The ranking does close to what population alone predicts
+across the world, and Curaçao's actual rank is consistent with the squad it is
+fielding. The case for reading Curaçao's qualification as anomalous against its
+resident population is stronger. The country sits in the seventh position of the
+global residual distribution against population, alongside Uruguay, Croatia and
+Portugal. The mechanism that produces this residual for the Curaçao case is the
+diaspora-fed eligibility pool, and the squad's per-resident market value of €193 is
+the same as Iceland's at thirty-eight per cent of Iceland's population.
+
+The framing the data support is therefore a positive one. Small states with
+substantial diasporas in countries that host deep professional football leagues can
+assemble football pyramids that exceed what their resident population could carry on
+its own. The FIFA ranking captures the quality of those pyramids in roughly the same
+way it captures any other federation's. The question this paper carries beyond
+football, into the diaspora-studies and migration-economics literatures, is how a
+small state with a substantial diaspora produces a national output that the
+resident-population frame cannot account for. Curaçao opens the 2026 World Cup
+against Germany on 14 June with a squad that is, in pyramid terms, a multi-generation
+diaspora given a Caribbean flag. The 150,000-person country and the 26-player squad
+are the empirical anchor; the diaspora-as-national-capacity question is the
+analytical one.
+
+The football case is one of the cleanest empirical settings for a mechanism that
+almost certainly operates elsewhere. Wherever institutional eligibility rules and
+a deep host-country professional infrastructure align, the resident-population unit
+will systematically understate what small states can produce. Curaçao's senior squad
+is one observable, quantifiable instance of a broader claim about how small states
+with substantial diasporas participate in larger economies through institutional
+rules they share. The development-economics measurement gap this implies is not
+restricted to football and may matter most in the domains where the diaspora is
+not made visible by a single match on a single afternoon.
 
 # References {.unnumbered}
 

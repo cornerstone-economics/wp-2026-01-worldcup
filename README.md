@@ -1,13 +1,13 @@
-# WP-2026-01 — Curaçao at the World Cup: what the FIFA ranking does not measure
+# WP-2026-01 — The diaspora multiplier: Curaçao at the 2026 World Cup and what the resident-population unit cannot see
 
-**Status:** in production. Target release: 14 May 2026.
+**Status:** in production. Target release: 21 May 2026.
 **Series:** Cornerstone Economics Working Papers, [papers.c-economics.com](https://papers.c-economics.com).
 **Identifier:** WP-2026-01.
 **License:** text CC-BY 4.0, code MIT.
 
 ## Abstract
 
-Curaçao qualified for the 2026 FIFA World Cup at world rank 82, the smallest country by population ever to do so. The qualification looks anomalous against the ranking, but the ranking itself is the source of the apparent anomaly. This paper formalises the diaspora measurement gap in FIFA's Elo-style ranking and estimates its size for a panel of small CONCACAF and UEFA states. The result generalises beyond Curaçao to other small states with large diasporas (Cabo Verde, Albania, Suriname).
+Curaçao opens its first World Cup against Germany on 14 June 2026. With about 150,000 residents it is the smallest country ever to qualify for the men's tournament, less than half the population of Iceland in 2018. At world rank 82 the qualification reads as anomalous, and the natural inference is that the FIFA ranking misses something. We find the opposite: across 202 nations FIFA rank moves systematically with resident population, and Curaçao is not under-measured but over-performing its population by about 80 rank places, in the same residual cluster as Uruguay, Croatia, Portugal, Belgium, and the Netherlands. The Curaçao men's senior squad carries a Transfermarkt market value of €193 per resident, equal to Iceland's, with every player developing abroad in a professional league. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool from 150,000 residents to a multi-generation diaspora concentrated in Dutch and other European professional football. For small states with substantial diasporas, the resident-population unit may not be the right reference for measuring competitive capacity.
 
 ## What is in this repository
 

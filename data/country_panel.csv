@@ -1,0 +1,14 @@
+iso3,iso2,country,confederation,role
+CUW,CW,Curaçao,CONCACAF,case
+CPV,CV,Cabo Verde,CAF,comparator
+ALB,AL,Albania,UEFA,comparator
+SUR,SR,Suriname,CONCACAF,comparator
+ISL,IS,Iceland,UEFA,reference
+MLT,MT,Malta,UEFA,reference
+LUX,LU,Luxembourg,UEFA,reference
+MNE,ME,Montenegro,UEFA,reference
+MKD,MK,North Macedonia,UEFA,reference
+JAM,JM,Jamaica,CONCACAF,reference
+TTO,TT,Trinidad and Tobago,CONCACAF,reference
+PAN,PA,Panama,CONCACAF,reference
+HTI,HT,Haiti,CONCACAF,reference

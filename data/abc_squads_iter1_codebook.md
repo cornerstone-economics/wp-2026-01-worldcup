@@ -17,7 +17,7 @@ Structural spine for two pieces of work: the Dick Draayer article on the 6-1 res
 
 **Curaçao women (22 players, November 2025 squad):** roughly 13 of 22 based abroad (Netherlands, Germany, Greece, USA college), 9 in the local Curaçao league. Of the 13 abroad, only two in the top Dutch professional division (Nisia at Sparta Rotterdam, Martina at Excelsior Rotterdam). Rest at Dutch amateur or semi-professional clubs.
 
-**Aruba women (23 players, April 2026 squad):** three players with high-confidence European professional club affiliations (Verhoeve at FC Utrecht, Lammers at Excelsior Rotterdam, Gumbs at AA Gent). The other twenty have no public club data. **Main data gap.** Best inference from 24ora (players travelled from Netherlands to Panama) and Dutch-heavy surname pattern is that a substantial share are Netherlands-based. Closing this gap requires AVB source or deeper Dutch amateur-league search per player.
+**Aruba women (23 players, April 2026 squad):** data gap closed in iteration 1.1 (10 May 2026) using Wikipedia squad table sourced to AVB Facebook of 1 March 2026, the CONCACAF U-20 Final Roster of February 2025, and the CONCACAF U-17 Round-One Roster of January 2026. Final composition: 4 European top flight (Verhoeve/FC Utrecht, Lammers/Excelsior Rotterdam, Gumbs/AA Gent, Susanna/ADO Den Haag), 1 European 2nd tier (Kock/Sparta Rotterdam, M-confidence), 6 European 3rd-tier or amateur (FC Skillz x2, FC Rijnvogels x2, Forum Sport, VV Nieuwenhoorn), 4 youth or reserve at Eredivisie-club setups (Excelsior MO17 x2, NEC Nijmegen youth, Jong FC Utrecht), 7 local Aruba Division di Honor (SV Britannia x4 + SV Bubali, SV Racing Club, SV Deportivo Nacional), and 1 still unknown (Henriquez). Eleven H-confidence, eight M-confidence, one U. Bonny Lammers's Excelsior Rotterdam record is pending verification — one secondary source suggests De Graafschap (Eerste Divisie, tier 2) — original record retained until rechecked.
 
 ## Variable definitions
 
@@ -52,7 +52,7 @@ Structural spine for two pieces of work: the Dick Draayer article on the 6-1 res
 | Aruba women | Arjan van der Laan | Head coach Netherlands women's national team 2015-2016 | March 2024 |
 | Curaçao women | Johan van Heertum | Dutch coaching background; no senior national team head role | ~2024 |
 | Aruba men | Marvic Bermúdez | Career mainly domestic/CONCACAF | ~2022 |
-| Curaçao men | Fred Rutten | Former Netherlands assistant; long Eredivisie/Bundesliga career | February 2026 |
+| Curaçao men | Fred Rutten | Former Netherlands assistant; long Eredivisie/Bundesliga career; replaced Dick Advocaat in February 2026 after Advocaat (who led the team through World Cup qualification) resigned for family reasons | February 2026 |
 
 ## Next iteration targets
 

@@ -1,5 +1,4 @@
 project:
-  type: default
   output-dir: _output
 
 # Cornerstone Economics Working Paper Series
@@ -11,7 +10,7 @@ format:
     documentclass: scrartcl
     papersize: a4
     fontsize: 11pt
-    linestretch: 1.15
+    linestretch: "1.15"
     geometry:
       - margin=2.5cm
       - top=3cm
@@ -34,11 +33,9 @@ format:
           \definecolor{ce-coral}{HTML}{E76F51}
           \definecolor{ce-gold}{HTML}{E8B84D}
           \definecolor{ce-near-black}{HTML}{091F38}
-          \usepackage{titling}
-          \usepackage{titlesec}
-          \titleformat*{\section}{\Large\bfseries\color{ce-blue}}
-          \titleformat*{\subsection}{\large\bfseries\color{ce-blue}}
-          \titleformat*{\subsubsection}{\bfseries\color{ce-blue}}
+          \addtokomafont{section}{\color{ce-blue}}
+          \addtokomafont{subsection}{\color{ce-blue}}
+          \addtokomafont{subsubsection}{\color{ce-blue}}
           \usepackage{fancyhdr}
           \pagestyle{fancy}
           \fancyhf{}
@@ -47,6 +44,7 @@ format:
           \fancyfoot[C]{\small\thepage}
           \renewcommand{\headrulewidth}{0.4pt}
           \renewcommand{\footrulewidth}{0pt}
+          \usepackage{colortbl}
           \arrayrulecolor{ce-blue}
 
   html:

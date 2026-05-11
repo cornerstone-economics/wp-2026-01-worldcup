@@ -1,27 +1,27 @@
 team_code,player_name,position,club,club_country,league_tier,confidence,notes
-ARU-W,Hadassah Kock,GK,unknown,X,X,U,First-choice GK has started since at least 2023
-ARU-W,Dylana Veenstra,GK,unknown,X,X,U,Dutch surname suggests NL-based
-ARU-W,Richdienne Croes,GK,unknown,X,X,U,
-ARU-W,Dyviënne Henriquez,DEF,unknown,X,X,U,Started vs Panama April 2026
-ARU-W,Genesis Hazel,DEF,unknown,X,X,U,Started vs Panama
-ARU-W,Joya Tromp,DEF,unknown,X,X,U,Started vs Panama; Dutch surname
-ARU-W,Sofia Mora,DEF,unknown,X,X,U,Sub vs Panama
-ARU-W,Michaella Netto,DEF,unknown,X,X,U,Started vs Panama
-ARU-W,Jayla Croes,DEF,unknown,X,X,U,
-ARU-W,Joyce Chen,DEF,unknown,X,X,U,
-ARU-W,Tarianna Doornkamp,MID,unknown,X,X,U,Scored 2 goals vs Curaçao April 13 2026; role suggests professional
-ARU-W,Jennifer Henao Garces,MID,unknown,X,X,U,Scored vs Curaçao
-ARU-W,Zaline Angela,MID,unknown,X,X,U,
-ARU-W,Delilah Croes,MID,unknown,X,X,U,
-ARU-W,Niamh Tromp,MID,unknown,X,X,U,
+ARU-W,Hadassah Kock,GK,Sparta Rotterdam,NLD,2,M,Wikipedia/AVB Facebook March 2026 lists Sparta Rotterdam; Sparta Vrouwen 1 plays Eerste Divisie (tier 2); could also be Jong Sparta Topklasse tier 3
+ARU-W,Dylana Veenstra,GK,SV Britannia,ABW,L,H,Wikipedia squad March 2026 + CONCACAF U-20 Feb 2025 official roster; SV Britannia plays Aruba Division di Honor
+ARU-W,Richdienne Croes,GK,Forum Sport,NLD,3,M,Wikipedia/AVB Facebook March 2026 lists Forum Sport; recent transfer from SV Racing Club Aruba per Feb 2025 U-20 roster; Forum Sport women plays Dutch Eerste Klasse / Hoofdklasse amateur range
+ARU-W,Dyviënne Henriquez,DEF,unknown,X,X,U,No club affiliation in Wikipedia squad; not on CONCACAF U-20 or U-17 official rosters; not found in Transfermarkt/Soccerway/ESPN/FotMob/KNVB
+ARU-W,Genesis Hazel,DEF,Excelsior Rotterdam (youth),NLD,Y,M,Wikipedia squad March 2026 lists Excelsior Rotterdam; ESPN senior Eredivisie squad does NOT include her; CONCACAF U-20 Feb 2025 official roster confirms; age 18 + teammate Breinburg confirmed on MO17 indicates youth/development
+ARU-W,Joya Tromp,DEF,SV Deportivo Nacional,ABW,L,M,Wikipedia squad leaves club empty; CONCACAF U-20 Feb 2025 final roster listed Nacional (ARU); Aruba Division di Honor
+ARU-W,Sofia Mora,DEF,SV Bubali,ABW,L,H,Wikipedia squad March 2026 + CONCACAF U-20 Feb 2025; SV Bubali plays Aruba Division di Honor
+ARU-W,Michaela Netto,DEF,Jong FC Utrecht,NLD,R,M,Wikipedia squad lists FC Utrecht; CONCACAF U-20 Feb 2025 specifies Jong FC Utrecht reserve side; name spelled Michaela not Michaella in all sources
+ARU-W,Jayla Croes,DEF,FC Skillz,NLD,3,H,Wikipedia squad March 2026 + CONCACAF U-20 Feb 2025; FC Skillz is Dutch amateur
+ARU-W,Joyce Chen,DEF,SV Racing Club Aruba,ABW,L,H,Wikipedia squad March 2026; SV Racing Club Aruba plays Division di Honor
+ARU-W,Tarianna Doornkamp,MID,FC Rijnvogels,NLD,3,H,Wikipedia squad March 2026; FC Rijnvogels women plays Topklasse Zaterdag (highest national amateur, tier 3); scored 2 goals vs Curaçao April 13 2026
+ARU-W,Jennifer Henao Garces,MID,SV Britannia,ABW,L,H,Wikipedia squad March 2026; SV Britannia plays Aruba Division di Honor; scored vs Curaçao
+ARU-W,Izaline Angela,MID,FC Rijnvogels,NLD,3,H,Wikipedia squad March 2026 confirms FC Rijnvogels Topklasse (tier 3); first name appears Izaline (Wikipedia/AVB) or Zaline (24ora)
+ARU-W,Delilah Croes,MID,FC Skillz,NLD,3,H,Wikipedia squad March 2026; FC Skillz Dutch amateur
+ARU-W,Niamh Tromp,MID,NEC Nijmegen (youth),NLD,Y,M,Wikipedia squad March 2026 + CONCACAF U-17 Jan 2026 official roster; born July 2009 age 16; NEC women only set up Vrouwen 1 in 2025/26
 ARU-W,Aisse Gumbs,MID,AA Gent,BEL,1,H,Belgian Super League; previously Club Brugge YLA; played Excelsior per FBref
 ARU-W,Soraya Verhoeve,MID,FC Utrecht,NLD,1,H,Ex-Ajax 111 games 3 Eredivisie titles 5 KNVB Cups; captain at Telstar 2024-25; mother Aruban; born Delft/Amsterdam 1997
-ARU-W,Adannayah Breinburg,MID,unknown,X,X,U,Assist and goal vs Curaçao; Dutch surname
-ARU-W,Kim Schoppema,MID,unknown,X,X,U,Dutch surname
-ARU-W,Bonny Lammers Solognier,FWD,Excelsior Rotterdam,NLD,1,H,Azerion Vrouwen Eredivisie; born Netherlands Dec 19 2003
-ARU-W,Vanessa Susanna,FWD,unknown,X,X,U,Started vs Panama
-ARU-W,Zyana Rogers,FWD,unknown,X,X,U,Sub vs Panama
-ARU-W,Jill Dreischor,FWD,unknown,X,X,U,Dutch surname
+ARU-W,Adannayah Breinburg,MID,Excelsior Rotterdam (MO17 youth),NLD,Y,H,Wikipedia squad + Excelsior MO17 page + CONCACAF U-17 Jan 2026 roster; born Jan 2009; assist and goal vs Curaçao
+ARU-W,Kim Schoppema,MID,SV Britannia,ABW,L,H,Wikipedia squad March 2026 + CONCACAF U-20 Feb 2025; born Nov 2008 age 17; SV Britannia plays Division di Honor
+ARU-W,Bonny Lammers Solognier,FWD,De Graafschap,NLD,2,H,Eerste Divisie tier 2 confirmed by user 11 May 2026; previously listed at Excelsior Rotterdam tier 1; born Netherlands Dec 19 2003
+ARU-W,Vanessa Susanna,FWD,ADO Den Haag,NLD,1,H,Wikipedia squad + ESPN player profile + Vanessa Susanna Wikipedia + Soccerway; ADO Den Haag Vrouwen plays Eredivisie; born 1997 in Netherlands to Aruban parents
+ARU-W,Zyana Rogers,FWD,SV Britannia,ABW,L,M,Wikipedia squad March 2026 (recent change from La Fama per Feb 2025 U-20 roster); born Dec 2010 age 15
+ARU-W,Jill Dreischor,FWD,VV Nieuwenhoorn,NLD,3,M,Wikipedia squad March 2026 (recent transfer from VV Spirit per Feb 2025 U-20 roster); Dutch amateur; born March 2008 age 18
 CUW-W,Ruwenna Cristina,X,UNDEBA,CUW,L,H,Curaçao local league
 CUW-W,Ignarda Pieternella,X,Victory Boys,CUW,L,H,Curaçao local
 CUW-W,Riesmarly Tokaay,X,Victory Boys,CUW,L,H,Curaçao local

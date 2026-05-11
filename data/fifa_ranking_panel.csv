@@ -1,0 +1,14 @@
+iso3,date,rank,points,country,role
+CUW,2026-05-10,82,1294.65,Curaçao,case
+CPV,2026-05-10,69,1366.13,Cabo Verde,comparator
+ALB,2026-05-10,64,1388.06,Albania,comparator
+SUR,2026-05-10,125,1132.43,Suriname,comparator
+ISL,2026-05-10,75,1345.07,Iceland,reference
+MLT,2026-05-10,161,987.73,Malta,reference
+LUX,2026-05-10,98,1227.77,Luxembourg,reference
+MNE,2026-05-10,81,1295.52,Montenegro,reference
+MKD,2026-05-10,67,1372.04,North Macedonia,reference
+JAM,2026-05-10,71,1358,Jamaica,reference
+TTO,2026-05-10,102,1222.94,Trinidad and Tobago,reference
+PAN,2026-05-10,33,1540.64,Panama,reference
+HTI,2026-05-10,83,1291.71,Haiti,reference
