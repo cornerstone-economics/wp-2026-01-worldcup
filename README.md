@@ -1,13 +1,13 @@
 # WP-2026-01 — The diaspora multiplier: Curaçao at the 2026 World Cup and what the resident-population unit cannot see
 
-**Status:** in production. Target release: 21 May 2026.
+**Status:** released 12 May 2026 (v1.0.0).
 **Series:** Cornerstone Economics Working Papers, [papers.c-economics.com](https://papers.c-economics.com).
 **Identifier:** WP-2026-01.
 **License:** text CC-BY 4.0, code MIT.
 
 ## Abstract
 
-Curaçao opens its first World Cup against Germany on 14 June 2026. With about 150,000 residents it is the smallest country ever to qualify for the men's tournament, less than half the population of Iceland in 2018. At world rank 82 the qualification reads as anomalous, and the natural inference is that the FIFA ranking misses something. We find the opposite: across 202 nations FIFA rank moves systematically with resident population, and Curaçao is not under-measured but over-performing its population by about 80 rank places, in the same residual cluster as Uruguay, Croatia, Portugal, Belgium, and the Netherlands. The Curaçao men's senior squad carries a Transfermarkt market value of €193 per resident, equal to Iceland's, with every player developing abroad in a professional league. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool from 150,000 residents to a multi-generation diaspora concentrated in Dutch and other European professional football. For small states with substantial diasporas, the resident-population unit may not be the right reference for measuring competitive capacity.
+Curaçao opens its first World Cup against Germany on 14 June 2026. With about 150,000 residents it is the smallest country ever to qualify for the men's tournament, less than half the population of Iceland in 2018. At world rank 82 the qualification reads as anomalous, and the natural inference is that the FIFA ranking misses something. We find the opposite: across 202 nations FIFA rank moves systematically with resident population, and Curaçao is not under-measured but over-performing its population by about 80 rank places, in the same residual cluster as Uruguay, Croatia, Denmark, Portugal, Belgium, and the Netherlands. The Curaçao men's senior squad carries a Transfermarkt market value of €184 per resident, level with Iceland's €192 on forty per cent of Iceland's population, with every player developing abroad in a professional league. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool from 150,000 residents to a multi-generation diaspora concentrated in Dutch and other European professional football. For small states with substantial diasporas, the resident-population unit may not be the right reference for measuring competitive capacity.
 
 ## What is in this repository
 

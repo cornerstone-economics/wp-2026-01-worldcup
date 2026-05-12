@@ -71,7 +71,7 @@ p <- ggplot(g, aes(x = population_latest, y = rank, text = tooltip)) +
     title    = "Curaçao ranks 80 places better than its population alone predicts",
     subtitle = "Hover any country. FIFA rank vs population, 202 countries.",
     x        = "Population (log scale)",
-    y        = "FIFA rank (lower = better)"
+    y        = "FIFA rank (1 = best)"
   ) +
   theme_minimal(base_size = 12) +
   theme(

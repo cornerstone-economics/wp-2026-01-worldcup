@@ -3,7 +3,7 @@ project:
 
 # Cornerstone Economics Working Paper Series
 # Single-source paper.qmd renders to PDF (camera-ready) and HTML (web).
-# CE format extensions live in _extensions/cornerstone-economics/
+# Inline LaTeX cover + colophon; will graduate to _extensions/cornerstone-economics/
 
 format:
   pdf:
@@ -11,9 +11,11 @@ format:
     papersize: a4
     fontsize: 11pt
     linestretch: "1.15"
+    shift-heading-level-by: 0
     geometry:
       - margin=2.5cm
       - top=3cm
+      - bottom=3cm
     colorlinks: true
     linkcolor: "ce-blue"
     urlcolor: "ce-blue"
@@ -21,7 +23,7 @@ format:
     toc: false
     number-sections: true
     fig-pos: "H"
-    keep-tex: false
+    keep-tex: true
     pdf-engine: xelatex
     mainfont: "Lato"
     sansfont: "Lato"
@@ -33,24 +35,148 @@ format:
           \definecolor{ce-coral}{HTML}{E76F51}
           \definecolor{ce-gold}{HTML}{E8B84D}
           \definecolor{ce-near-black}{HTML}{091F38}
-          \addtokomafont{section}{\color{ce-blue}}
-          \addtokomafont{subsection}{\color{ce-blue}}
-          \addtokomafont{subsubsection}{\color{ce-blue}}
+          \definecolor{ce-light-grey}{HTML}{E8ECEF}
+          \addtokomafont{section}{\color{ce-near-black}}
+          \addtokomafont{subsection}{\color{ce-near-black}}
+          \addtokomafont{subsubsection}{\color{ce-near-black}}
+          % Each top-level section starts on a fresh page. The redefinition leaves
+          % \section's \@ifstar handling intact, so \section*{References} still works.
+          \let\ceoldsection\section
+          \renewcommand{\section}{\clearpage\ceoldsection}
+          \usepackage{graphicx}
+          \usepackage{changepage}
           \usepackage{fancyhdr}
-          \pagestyle{fancy}
-          \fancyhf{}
-          \fancyhead[L]{\small\color{ce-blue}\textbf{Cornerstone Economics}}
-          \fancyhead[R]{\small\color{ce-blue}$ce-paper-number$}
-          \fancyfoot[C]{\small\thepage}
-          \renewcommand{\headrulewidth}{0.4pt}
-          \renewcommand{\footrulewidth}{0pt}
           \usepackage{colortbl}
           \arrayrulecolor{ce-blue}
+          % Suppress Quarto's default title block (cover renders via \AtBeginDocument below)
+          \renewcommand{\maketitle}{}
+          % Style Pandoc's abstract environment for a dedicated abstract page
+          \renewenvironment{abstract}{%
+            \thispagestyle{empty}%
+            \vspace*{1cm}%
+            \begin{flushleft}%
+            {\color{ce-blue}\rule{2.5pt}{30pt}}\hspace{4mm}{\Large\bfseries\color{ce-blue}Abstract}%
+            \end{flushleft}%
+            \vspace{0.6em}%
+            \begin{adjustwidth}{0mm}{8mm}%
+              \color{ce-near-black}%
+          }{%
+            \end{adjustwidth}\clearpage\pagestyle{cebody}\thispagestyle{cebody}%
+          }
+          % Header / footer style for body pages (cover page uses \pagestyle{empty})
+          \fancypagestyle{cebody}{%
+            \fancyhf{}%
+            \fancyhead[L]{\raisebox{-0.25\height}{\includegraphics[height=8mm]{assets/ce-logo.png}}\hspace{2mm}\small\color{ce-blue}\textbf{WP-2026-01} \color{ce-near-black}The diaspora multiplier}%
+            \fancyhead[R]{\small\color{ce-near-black}\thepage}%
+            \fancyfoot[C]{}%
+            \renewcommand{\headrulewidth}{0.4pt}%
+            \renewcommand{\headruleskip}{2pt}%
+            \renewcommand{\footrulewidth}{0pt}%
+          }
+          % Helper macros to alias pagestyles. Defined in preamble with @ as a letter
+          % catcode so the \ps@... names parse correctly; callers can use them from
+          % anywhere in the body without needing \makeatletter wrapping.
+          \makeatletter
+          \newcommand{\ceUsecebody}{\let\ps@plain\ps@cebody}
+          \newcommand{\ceStripheader}{\let\ps@plain\ps@empty}
+          \makeatother
+          % Cover page injected at \begin{document} so it precedes the abstract
+          \AtBeginDocument{%
+            \thispagestyle{empty}%
+            \begin{flushleft}
+            \includegraphics[height=18mm]{assets/ce-logo.png}\hfill
+            \begin{minipage}[b]{0.5\textwidth}
+            \raggedleft
+            {\small\color{ce-blue}\textbf{CORNERSTONE ECONOMICS}}\\
+            {\small\color{ce-blue}WORKING PAPER SERIES}\\[0.3em]
+            {\Large\color{ce-blue}\textbf{WP-2026-01}}
+            \end{minipage}
+            \end{flushleft}
+            \vspace{2cm}\par
+            \noindent{\color{ce-blue}\rule{\linewidth}{1.2pt}}\par
+            \vspace{1.5cm}\par
+            \noindent{\fontsize{30pt}{34pt}\selectfont\bfseries\color{ce-near-black}The diaspora multiplier}\par
+            \vspace{0.6em}\par
+            \noindent{\fontsize{16pt}{20pt}\selectfont\color{ce-blue}Cura\c{c}ao at the 2026 World Cup and what the resident-population unit cannot see}\par
+            \vspace{2.5cm}\par
+            \noindent{\large\bfseries\color{ce-near-black}Rendell de Kort}\\[0.3em]
+            {\color{ce-near-black}Cornerstone Economics \,$\cdot$\, Vrije Universiteit Amsterdam}\\[0.2em]
+            {\small\color{ce-near-black}ORCID: \href{https://orcid.org/0009-0006-5402-0500}{0009-0006-5402-0500} \,$\cdot$\, \href{mailto:rendell@c-economics.com}{rendell@c-economics.com}}\par
+            \vspace{1.2cm}\par
+            \noindent{\small\color{ce-near-black}\textbf{May 2026} \,$\cdot$\, Version 1.0 \,$\cdot$\, DOI: 10.5281/zenodo.20126987}\par
+            \vspace{0.4em}\par
+            \noindent{\small\color{ce-near-black}\textbf{JEL codes:} F22, Z22, O15}\par
+            \vspace{0.2em}\par
+            \noindent{\small\color{ce-near-black}\textbf{Keywords:} small-state economics; diaspora; football economics; FIFA ranking; migration; Caribbean; Cura\c{c}ao}\par
+            \vfill
+            \noindent{\color{ce-blue}\rule{\linewidth}{0.6pt}}\par
+            \vspace{0.6em}\par
+            \noindent{\small\bfseries\color{ce-blue}About the Cornerstone Economics Working Paper Series}\par
+            \vspace{0.2em}\par
+            \noindent{\footnotesize\color{ce-near-black}Cornerstone Economics publishes empirical research on how small economies build, adapt, and sometimes get trapped by the institutions they inherit. Caribbean and small-state cases are treated as evidence for general claims rather than as local-interest footnotes. Working papers, reproducible data, open licenses.}\par
+            \vspace{0.6em}\par
+            \noindent{\footnotesize\color{ce-near-black}\textbf{Suggested citation:} de Kort, R. (2026). \textit{The diaspora multiplier: Cura\c{c}ao at the 2026 World Cup and what the resident-population unit cannot see}. Cornerstone Economics Working Paper WP-2026-01. \href{https://doi.org/10.5281/zenodo.20126987}{doi.org/10.5281/zenodo.20126987}}\par
+            \vspace{0.4em}\par
+            \noindent{\footnotesize\color{ce-near-black}License: CC-BY 4.0 \,$\cdot$\, \href{https://papers.c-economics.com}{papers.c-economics.com} \,$\cdot$\, \href{https://github.com/cornerstone-economics/wp-2026-01-worldcup}{github.com/cornerstone-economics/wp-2026-01-worldcup}}\par
+            \clearpage
+            % Set body pagestyle from this point on. Mirror cebody onto plain so
+            % KOMA-Script's automatic \thispagestyle{plain} (applied on first page
+            % of new content blocks) still shows the running header.
+            \pagestyle{cebody}\ceUsecebody
+          }
+    include-after-body:
+      - text: |
+          % ===== COLOPHON / BACK MATTER =====
+          \clearpage
+          % Strip running header for colophon pages
+          \pagestyle{empty}\ceStripheader\thispagestyle{empty}
+          \vspace*{0.5cm}
+
+          \begin{center}
+          \includegraphics[height=20mm]{assets/ce-logo.png}
+          \end{center}
+
+          \vspace{0.8cm}
+
+          {\color{ce-blue}\rule{\linewidth}{0.6pt}}
+          \vspace{0.6em}
+
+          \noindent{\large\bfseries\color{ce-blue}About this paper}\par
+          \vspace{0.3em}
+          \noindent{\small\color{ce-near-black}\textit{The diaspora multiplier: Cura\c{c}ao at the 2026 World Cup and what the resident-population unit cannot see} is the first publication in the Cornerstone Economics Working Paper Series. It develops the diaspora-as-national-capacity framing using a global panel of 202 FIFA-ranked countries, a 13-country focal panel with Transfermarkt squad valuations, and a within-Kingdom comparison across the four Aruba and Cura\c{c}ao senior squads.\par}
+
+          \vspace{0.8cm}
+
+          \noindent{\large\bfseries\color{ce-blue}About Cornerstone Economics}\par
+          \vspace{0.3em}
+          \noindent{\small\color{ce-near-black}Working at the intersection of economic resilience, institutional design, and small-state development. The working paper series brings Caribbean-rooted empirical analysis to the literatures and policy conversations that shape what small places can do.\par}
+
+          \vspace{0.8cm}
+
+          \noindent{\large\bfseries\color{ce-blue}Reproducibility}\par
+          \vspace{0.3em}
+          \noindent{\small\color{ce-near-black}Data, code, and figures: \href{https://github.com/cornerstone-economics/wp-2026-01-worldcup}{github.com/cornerstone-economics/wp-2026-01-worldcup}\par}
+          \noindent{\small\color{ce-near-black}DOI (always resolves to latest): \href{https://doi.org/10.5281/zenodo.20126987}{doi.org/10.5281/zenodo.20126987}\par}
+
+          \vspace{0.8cm}
+
+          \noindent{\large\bfseries\color{ce-blue}Author}\par
+          \vspace{0.3em}
+          \noindent{\small\color{ce-near-black}Rendell de Kort \,$\cdot$\, Cornerstone Economics \,$\cdot$\, Vrije Universiteit Amsterdam\par}
+          \noindent{\small\color{ce-near-black}ORCID: \href{https://orcid.org/0009-0006-5402-0500}{0009-0006-5402-0500} \,$\cdot$\, Email: \href{mailto:rendell@c-economics.com}{rendell@c-economics.com}\par}
+
+          \vfill
+
+          {\color{ce-blue}\rule{\linewidth}{0.6pt}}
+          \vspace{0.4em}
+          \noindent{\footnotesize\color{ce-near-black}\textbf{License:} text under Creative Commons Attribution 4.0 International (CC-BY 4.0); code under MIT.\par}
+          \noindent{\footnotesize\color{ce-near-black}First published 12 May 2026. Cura\c{c}ao opens its 2026 World Cup against Germany on 14 June 2026 in Houston.\par}
 
   html:
     theme:
       - cosmo
       - styles.scss
+    shift-heading-level-by: 0
     toc: true
     toc-location: right
     toc-depth: 3

@@ -12,7 +12,7 @@ status: "draft v1, 10 May 2026"
 **Carousel of three figures** (LinkedIn supports up to 10 in a document or image carousel):
 
 1. `figures/social/fig6_global_pop_vs_rank_square.png` — the headline (Curaçao among elite over-rankers)
-2. `figures/social/fig5_per_capita_squad_square.png` — Curaçao-Iceland tie at €193 per resident
+2. `figures/social/fig5_per_capita_squad_square.png` — Curaçao at €184 per resident, level with Iceland's €192 on 40% of Iceland's population
 3. `figures/social/fig2_squad_location_square.png` — the mechanism (0 local players, 19 in European pro tiers)
 
 **Single-image fallback:** `figures/social/fig6_global_pop_vs_rank_square.png`.
@@ -29,7 +29,7 @@ Square versions used because LinkedIn renders square images largest in-feed. Wid
 >
 > Yes, the Netherlands. The 17.5-million-person Kingdom partner that Dutch readers treat as the football reference point. Curaçao occupies the same statistical company on this residual axis, at about 1% of its population.
 >
-> How does a 150,000-person island do this? Every player in the current Curaçao men's squad develops abroad in a professional league. The squad's per-resident Transfermarkt market value is €193, exactly equal to Iceland's at 38% of Iceland's population. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool from 150,000 residents to a multi-generation Dutch-Caribbean diaspora that draws on the same Dutch professional football pyramid the Oranje draw from.
+> How does a 150,000-person island do this? Every player in the current Curaçao men's squad develops abroad in a professional league. The squad's per-resident Transfermarkt market value is €184, level with Iceland's €192 on 40% of Iceland's population. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool from 150,000 residents to a multi-generation Dutch-Caribbean diaspora that draws on the same Dutch professional football pyramid the Oranje draw from.
 >
 > The lesson reaches beyond sport. For small states with substantial diasporas, the resident-population unit is the wrong reference for measuring competitive capacity. Cape Verde, Suriname, and other cases sit in the same descriptive family. The pattern partly traces back to Atlantic migration routes the colonial era set up.
 >

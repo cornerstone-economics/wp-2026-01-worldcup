@@ -2,15 +2,23 @@ cff-version: 1.2.0
 message: "If you use this paper, please cite it as below."
 type: generic
 title: "The diaspora multiplier: Curaçao at the 2026 World Cup and what the resident-population unit cannot see"
-abstract: "Curaçao opens its first World Cup against Germany on 14 June 2026 with about 150,000 residents, the smallest country ever to qualify. Across a global panel of 202 nations, FIFA rank tracks resident population closely; Curaçao sits about 80 rank places higher than its population alone predicts, in the same residual cluster as Uruguay, Croatia, Portugal, Belgium and the Netherlands. The Curaçao men's senior squad carries a Transfermarkt market value of €193 per resident, level with Iceland on 38% of Iceland's population. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool to a multi-generation Dutch-Caribbean diaspora. The paper documents diaspora as national capacity and the methodological problem that the resident-population unit poses for measuring small-state competitive capacity."
+abstract: "Curaçao opens its first World Cup against Germany on 14 June 2026 with about 150,000 residents, the smallest country ever to qualify. Across a global panel of 202 nations, FIFA rank tracks resident population closely; Curaçao sits about 80 rank places higher than its population alone predicts, in the same residual cluster as Uruguay, Croatia, Denmark, Portugal, Belgium and the Netherlands. The Curaçao men's senior squad carries a Transfermarkt market value of €184 per resident, level with Iceland's €192 on forty per cent of Iceland's population. FIFA's parent-and-grandparent eligibility rule extends the recruitable pool to a multi-generation Dutch-Caribbean diaspora. The paper documents diaspora as national capacity and the methodological problem that the resident-population unit poses for measuring small-state competitive capacity."
 authors:
   - family-names: "de Kort"
     given-names: "Rendell"
     orcid: "https://orcid.org/0009-0006-5402-0500"
     email: "rendell@c-economics.com"
     affiliation: "Cornerstone Economics; Vrije Universiteit Amsterdam"
-date-released: "2026-05-21"
-version: "0.2-draft"
+date-released: "2026-05-12"
+version: "1.0.0"
+doi: "10.5281/zenodo.20126987"
+identifiers:
+  - description: "Concept DOI (always resolves to latest version)"
+    type: doi
+    value: "10.5281/zenodo.20126987"
+  - description: "Version DOI (zenodo-test-1, replace on v1.0 release)"
+    type: doi
+    value: "10.5281/zenodo.20126988"
 keywords:
   - small-state economics
   - diaspora

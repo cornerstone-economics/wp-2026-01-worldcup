@@ -264,7 +264,7 @@ build_fig3 <- function() {
       title    = "FIFA ranking trajectories",
       subtitle = "Curaçao and three small-state-with-diaspora comparators, 2014-2026",
       x        = NULL,
-      y        = "FIFA rank (lower = better)",
+      y        = "FIFA rank (1 = best)",
       caption  = paste(
         "Source: FIFA monthly ranking history (cashncarry/FIFAWorldRanking mirror of FIFA inside.fifa.com).",
         "Cornerstone Economics WP-2026-01."
@@ -328,7 +328,7 @@ build_fig4 <- function() {
       title    = "Same population, very different FIFA rank",
       subtitle = "Population alone leaves the rank under-determined for small states",
       x        = "Population (log scale)",
-      y        = "Current FIFA rank (lower = better)",
+      y        = "FIFA rank (1 = best)",
       caption  = paste(
         "Source: World Bank WDI; FIFA men's ranking (10 May 2026).",
         "Trend line: rank ~ log(population), 95% CI."
@@ -394,10 +394,10 @@ build_fig5 <- function() {
     scale_color_manual(values = c("FALSE" = ce_blue, "TRUE" = ce_coral),
                        guide = "none") +
     labs(
-      title    = "Curaçao matches Iceland in per-capita squad value",
+      title    = "Curaçao sits level with Iceland in per-capita squad value",
       subtitle = paste0(
         "Transfermarkt squad value per resident, 13-country panel. ",
-        "Curaçao reaches Iceland's level at 38% of Iceland's population."
+        "Curaçao at €184 sits level with Iceland's €192 on 40% of Iceland's population."
       ),
       x        = "Population (log scale)",
       y        = "Squad market value per resident",
@@ -465,7 +465,7 @@ build_fig6 <- function() {
         "Croatia, Portugal — at a fraction of the population."
       ),
       x        = "Population (log scale)",
-      y        = "Current FIFA rank (lower = better)",
+      y        = "FIFA rank (1 = best)",
       caption  = paste(
         "Sources: FIFA men's ranking (10 May 2026); World Bank WDI population.",
         "Trend: rank ~ log(population), 95% CI."

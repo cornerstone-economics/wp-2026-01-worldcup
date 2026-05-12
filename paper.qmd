@@ -25,18 +25,20 @@ abstract: |
   explains close to a third of the global variation in rank. The ranking
   is doing roughly what population alone predicts. Curaçao is over-performing
   its population by about 80 rank places. The residual cluster Curaçao sits
-  in includes Uruguay, Croatia, Portugal, Belgium, and the Netherlands.
+  in includes Uruguay, Croatia, Denmark, Portugal, Belgium, and the Netherlands.
   Curaçao and the Netherlands occupy the same residual position on the
   population-rank axis, one at 150,000 residents and one at 17.5 million.
 
   The squad behind the rank is where the question goes. The Curaçao men's
   senior squad carries a Transfermarkt market value
-  of 193 euros per resident, equal to Iceland's, and roughly four times
-  the median of our 13-country comparison panel. Every player in the
-  current call-up develops abroad in a professional league. FIFA's
-  parent-and-grandparent eligibility rule extends the recruitable pool
-  from 150,000 residents to a multi-generation diaspora concentrated in
-  Dutch and other European professional football.
+  of 184 euros per resident, level with Iceland at 192 euros and
+  roughly four times the median of our 13-country comparison panel.
+  Curaçao reaches Iceland's per-resident level on forty per cent of
+  Iceland's population. Every player in the current call-up develops
+  abroad in a professional league. FIFA's parent-and-grandparent
+  eligibility rule extends the recruitable pool from 150,000 residents
+  to a multi-generation diaspora concentrated in Dutch and other
+  European professional football.
 
   We are explicit that this is a single case in a single qualification
   cycle, and we do not over-read it. What the Curaçao result raises,
@@ -55,8 +57,8 @@ jel-codes:
   - Z22
   - O15
 ce-paper-number: "WP-2026-01"
-ce-version: "0.2-draft"
-ce-doi: "TBD on first release"
+ce-version: "1.0.0"
+ce-doi: "10.5281/zenodo.20126987"
 bibliography: references.bib
 csl: chicago-author-date.csl
 format:
@@ -93,11 +95,12 @@ doing the work the public gives it credit for.
 
 What it does not do, and was never going to do, is generate squad quality. Curaçao's
 position in the residual distribution of that population-rank relationship is the
-seventh strongest in the world, alongside Uruguay, Croatia, Portugal, Belgium and the
-Netherlands. The country ranks roughly eighty places higher than its 150,000 residents
-alone predict. That residual is the squad. The Curaçao men's national squad carries
-a market value per resident equal to Iceland's, at thirty-eight per cent of Iceland's
-population, and the squad's club distribution is unambiguous: every senior player
+seventh strongest in the world, alongside Uruguay, Croatia, Denmark, Portugal,
+Belgium and the Netherlands. The country ranks roughly eighty places higher than
+its 150,000 residents alone predict. That residual is the squad. The Curaçao
+men's national squad carries a market value per resident of €184, level with
+Iceland's €192 on forty per cent of Iceland's population. The squad's club
+distribution is unambiguous: every senior player
 develops in a foreign professional league, and not one in the current call-up is
 based on Curaçao itself. The squad is a
 diaspora pyramid that exceeds what the resident base could carry on its own.
@@ -160,7 +163,7 @@ residual against population is the sharper analytical object than the rank itsel
 
 ```{r}
 #| label: fig-pop-vs-rank-global
-#| fig-cap: "FIFA rank versus log resident population, 202 countries. Lower y is a better rank. Curaçao is highlighted in coral; the trend line is rank ~ log(population) with 95% confidence interval. Source: FIFA men's ranking 10 May 2026; World Bank WDI population (latest available)."
+#| fig-cap: "FIFA rank versus log resident population, 202 countries. Rank 1 is best; the y-axis is reversed so the strongest teams sit at the top. Curaçao is highlighted in coral; the trend line is rank ~ log(population) with 95% confidence interval. Source: FIFA men's ranking 10 May 2026; World Bank WDI population (latest available)."
 knitr::include_graphics("figures/fig6_global_pop_vs_rank.png")
 ```
 
@@ -300,27 +303,28 @@ alone predicts. Eighty places of residual is large in absolute terms; six countr
 in the world have a more extreme over-ranking residual on this metric, and the six
 are Uruguay, Croatia, Denmark, Portugal, Belgium and the Netherlands. Curaçao
 ranks seventh in this residual distribution, ahead of Switzerland, Norway, Panama,
-and the Republic of Ireland. We are not arguing that Curaçao is the football peer
+and Austria. We are not arguing that Curaçao is the football peer
 of Croatia or Portugal. We are reporting that on the population-rank axis the
 country occupies the same residual position as those federations.
 
 The third result is the per-resident squad market value. The Curaçao men's squad
-carries an aggregate Transfermarkt valuation of €28.7 million on 26 players. The
-resident population at most recent estimate is 148,925. The per-resident value is
-€193. Iceland's per-resident value, computed identically, is €191. No other panel
-country reaches half of either figure. Cabo Verde follows at €85, Suriname at €60,
-Luxembourg at €49 and Albania at €30 (figure 5). What this result says, in
-combination with the squad composition in figure 2, is that the resident base of
-Curaçao is supporting a football pyramid the size of Iceland's at thirty-eight per
-cent of the residents. The mechanism is the diaspora-fed eligibility pool: every
-player in the senior squad develops in a foreign professional league, and the
-weighted distribution of those leagues skews toward European top-flight and
-second-tier teams. The squad is, in pyramid terms, a Dutch-Turkish-German
-construction with a Caribbean badge.
+carries an aggregate Transfermarkt valuation of €28.7 million on 26 players. On
+the World Bank WDI resident population of 155,967, the per-resident value is €184.
+Iceland's per-resident value, computed identically on a WDI population of 386,506,
+is €192. The two countries sit level on this measure on populations that differ
+by a factor of 2.5. No other panel country reaches half of either figure. Cabo
+Verde follows at €85, Suriname at €60, Luxembourg at €49 and Albania at €30
+(figure 5). What this result says, in combination with the squad composition in
+figure 2, is that the resident base of Curaçao is supporting a football pyramid
+the size of Iceland's at forty per cent of the residents. The mechanism is the
+diaspora-fed eligibility pool: every player in the senior squad develops in a
+foreign professional league, and the weighted distribution of those leagues skews
+toward European top-flight and second-tier teams. The squad is, in pyramid terms,
+a Dutch-Turkish-German construction with a Caribbean badge.
 
 ```{r}
 #| label: fig-per-capita-squad
-#| fig-cap: "Transfermarkt squad market value per resident, thirteen-country focal panel. Curaçao matches Iceland at €193 per resident, on a resident population thirty-eight per cent of Iceland's. Source: Transfermarkt 10 May 2026; World Bank WDI population (latest)."
+#| fig-cap: "Transfermarkt squad market value per resident, thirteen-country focal panel. Curaçao at €184 per resident sits level with Iceland at €192, on a resident population forty per cent of Iceland's. Source: Transfermarkt 10 May 2026; World Bank WDI population (latest)."
 knitr::include_graphics("figures/fig5_per_capita_squad.png")
 ```
 
@@ -333,7 +337,7 @@ meaningful object. Where the popular and academic discussion has gone is to read
 small-state qualifications as ranking failures. The data point in the other
 direction. For Curaçao specifically, the rank is roughly eighty places higher than
 its 150,000 residents predict, and this is consistent with a squad whose per-resident
-market value matches Iceland's. The rank is doing what the squad value implies.
+market value sits level with Iceland's. The rank is doing what the squad value implies.
 
 One observation in this residual structure is worth surfacing because of how
 Curaçao's qualification is read in Dutch public discussion. The Netherlands is
@@ -508,19 +512,32 @@ present the empirical pattern as descriptive and suggestive rather than as a cau
 identification of the diaspora effect.
 
 Finally, federation governance is part of the Curaçao story that this paper does not
-attempt to model. Dick Advocaat's leadership of the team through the qualifying
-campaign, his replacement by Fred Rutten in February 2026 after Advocaat resigned for
-family reasons, the Federashon Futbol Korsou's recruitment of senior
-diaspora-eligible players over the previous cycle, and the qualifying-window
-scheduling decisions made by CONCACAF all sit upstream of the squad-quality and rank
-outcomes we observe. Advocaat's appointment in particular reads as the
-federation-governance choice that converted a latent diaspora-fed eligibility pool
-into a functional squad on the field: a coach with deep Dutch professional-football
-networks and a serious-national-team CV, brought in to make playing for Curaçao a
-credible option for diaspora-eligible players already in the Eredivisie, the Süper Lig
-and other European systems. The mechanism this paper describes is necessary but not
-sufficient for that conversion; the governance work that closes the gap is a separate
-analytical object. We treat all of this as given. A federation-governance
+attempt to model. Dick Advocaat led the team through the qualifying campaign and
+resigned in February 2026 for family reasons. Fred Rutten succeeded him.
+On 11 May 2026, less than five weeks before the opening match against Germany,
+Rutten stepped down under sponsor and player pressure and Advocaat returned to take
+the team to the tournament. Press chief Kees Jansma resigned over the reversal,
+calling the federation's handling of the succession unacceptable and unjust.
+The episode is governance turbulence at the worst possible time and will shape
+on-field results during the tournament. It does not change the empirical object this
+paper measures. The squad market value, the squad composition, and the
+population-rank residual are calculated on the player pool and the rank as of 10
+May 2026. If anything, what the drama makes visible is the institutional
+architecture the paper documents. The departing head coach is Dutch. The returning
+head coach is Dutch. The main sponsor whose stated preference materially shifted the
+decision is Corendon, a Dutch travel firm. The playing group expressing the
+coaching preference is rooted in the same Dutch professional culture as the coach
+the federation reinstated. The competitive capacity Curaçao is bringing to the
+United States in June is assembled across Dutch institutions, and the decision over
+who walks the team out at NRG Stadium in Houston is governed by those same
+institutions, in the same direction the rest of the paper documents.
+The Federashon Futbol Korsou's recruitment of senior diaspora-eligible players over
+the previous cycle and CONCACAF's qualifying-window scheduling decisions sit
+upstream of the squad-quality and rank outcomes we observe. The mechanism this paper
+describes is necessary but not sufficient for the conversion of a diaspora-fed
+eligibility pool into a functional squad on the field; the governance work that
+closes the gap is a separate analytical object, and the events of 11 May 2026
+underscore how separate. We treat all of this as given. A federation-governance
 specification of the residual, focused on how small federations make the conversion
 from diaspora-eligibility-pool to fielded-squad, is the most natural candidate for a
 follow-up paper.
@@ -532,10 +549,11 @@ does not survive the data. The ranking does close to what population alone predi
 across the world, and Curaçao's actual rank is consistent with the squad it is
 fielding. The case for reading Curaçao's qualification as anomalous against its
 resident population is stronger. The country sits in the seventh position of the
-global residual distribution against population, alongside Uruguay, Croatia and
-Portugal. The mechanism that produces this residual for the Curaçao case is the
-diaspora-fed eligibility pool, and the squad's per-resident market value of €193 is
-the same as Iceland's at thirty-eight per cent of Iceland's population.
+global residual distribution against population, alongside Uruguay, Croatia,
+Denmark, Portugal, Belgium and the Netherlands. The mechanism that produces
+this residual for the Curaçao case is the diaspora-fed eligibility pool, and
+the squad's per-resident market value of €184 sits level with Iceland's €192
+on forty per cent of Iceland's population.
 
 The framing the data support is therefore a positive one. Small states with
 substantial diasporas in countries that host deep professional football leagues can

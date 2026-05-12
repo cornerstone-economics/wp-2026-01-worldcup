@@ -1,6 +1,7 @@
 _output/
 _freeze/
 .quarto/
+paper.tex
 *.aux
 *.log
 *.synctex.gz
